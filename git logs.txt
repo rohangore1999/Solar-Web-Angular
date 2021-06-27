@@ -44,3 +44,17 @@ echo "# Solar-Web-Angular" >> README.md
   148  git remote add origin https://github.com/rohangore1999/Solar-Web-Angular.git
   149   git push -u origin main
   150  git status
+
+
+
+
+
+
+
+This sovled the issue. If you had a previous mistake in git and want to delete it then do
+
+rm -rf .git
+Then do
+
+git init
+To start over

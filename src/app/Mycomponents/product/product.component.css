@@ -104,3 +104,21 @@ padding: 2px 16px;
     border-radius: 22px;
     -webkit-tap-highlight-color: transparent;
 }
+
+@media (max-width: 475px) {
+
+    .mat-button-toggle-group
+    {
+        width: 100%;
+    }
+
+    .btn
+    {
+        border: none;
+        outline: none;
+        padding: 3px 0px;
+        background-color: white;
+        cursor: pointer;
+        margin-right: -2%;
+    }
+}
