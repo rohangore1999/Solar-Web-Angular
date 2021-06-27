@@ -1,0 +1,46 @@
+echo "# solar-web-angular" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rohangore1999/solar-web-angular.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/rohangore1999/solar-web-angular.git
+git branch -M main
+git push -u origin main
+
+
+
+---------logs--------------
+echo "# Solar-Web-Angular" >> README.md
+  124  git init
+  125  git add README.md
+  126  git commit -m "first commit"
+  127  git branch -M main
+  128  git remote add origin https://github.com/rohangore1999/Solar-Web-Angular.git
+  129  git push -u origin main
+  130  git status
+  131  git add .browserslistrc
+  132  git add .editorconfig
+  133  git add angular.json
+  134  git add e2e/
+  135  git add karma.conf.js
+  136  git add package-lock.json
+  137  git add src/
+  138  git add tsconfig.app.json
+  139  git add tsconfig.json
+  140  git add tsconfig.spec.json
+  141  git add tslint.json
+  142  git status
+  143  git add .gitignore
+  144  git add package.json
+  145  git status
+  146  git commit -m "first commit"
+  147  git branch -M main
+  148  git remote add origin https://github.com/rohangore1999/Solar-Web-Angular.git
+  149   git push -u origin main
+  150  git status
