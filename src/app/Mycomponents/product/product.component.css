@@ -105,11 +105,12 @@ padding: 2px 16px;
     -webkit-tap-highlight-color: transparent;
 }
 
+/* Media Query For to MAX 475px */
 @media (max-width: 475px) {
 
     .mat-button-toggle-group
     {
-        width: 100%;
+        width: 79%;
     }
 
     .btn
@@ -122,3 +123,69 @@ padding: 2px 16px;
         margin-right: -2%;
     }
 }
+
+/* Media Query End For to MIN 475px */
+
+/* Media Query For from Min 440px */
+@media (min-width: 440px) {
+
+    .mat-button-toggle-group
+    {
+        width: 85%;
+    }
+
+    .btn
+    {
+        border: none;
+        outline: none;
+        padding: 3px 0px;
+        background-color: white;
+        cursor: pointer;
+        margin-right: -2%;
+    }
+}
+
+/* Media Query End For from MIN 440px */
+
+/* Media Query For from Min 430px */
+@media (min-width: 430px) {
+
+    .mat-button-toggle-group
+    {
+        width: 88%;
+    }
+
+    .btn
+    {
+        border: none;
+        outline: none;
+        padding: 3px 0px;
+        background-color: white;
+        cursor: pointer;
+        margin-right: -2%;
+    }
+}
+
+/* Media Query End For from MIN 430px */
+
+/* Media Query For to Max 430px */
+@media (max-width: 430px) {
+
+    .mat-button-toggle-group
+    {
+        width: 88%;
+    }
+
+    .btn
+    {
+        border: none;
+        outline: none;
+        padding: 3px 0px;
+        background-color: white;
+        cursor: pointer;
+        margin-right: -2%;
+    }
+}
+
+/* Media Query End For from MAX 430px */
+
