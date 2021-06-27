@@ -189,3 +189,24 @@ padding: 2px 16px;
 
 /* Media Query End For from MAX 430px */
 
+/* Media Query For from 410px */
+@media (min-width: 410px) {
+
+    .mat-button-toggle-group
+    {
+        width: 91%;
+    }
+
+    .btn
+    {
+        border: none;
+        outline: none;
+        padding: 3px 0px;
+        background-color: white;
+        cursor: pointer;
+        margin-right: -2%;
+    }
+}
+
+/* Media Query End For from MAX 410px */
+
