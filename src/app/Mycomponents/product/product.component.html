@@ -1,0 +1,172 @@
+<!-- Importing Navbar -->
+<app-navbar></app-navbar>
+
+<!-- MAIN (Center website) -->
+<div class="container" style="padding: 16px 16px;">
+
+    <h2 class="pb-2 border-bottom">Categories</h2>
+
+    <div class="myBtnContainer" id="myBtnContainer">
+
+        <!-- 
+            set active when 'tabIndex === 0' returns true |  mat-raised-button
+         -->
+        <mat-button-toggle-group appearance="legacy">
+            <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 0}" (click)="onTabClick(0)" routerLink="/product"
+                [routerLinkActive]="['active']" [class.active]="isActive('btn1')" (click)="setActive('btn1')"
+                (click)="filterSelection1('all')"> Show
+                all</mat-button-toggle>
+
+            <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 1}" (click)="onTabClick(1)"
+                [class.active]="isActive('btn2')" (click)="setActive('btn2')" (click)="filterSelection1('nature')">
+                Batteries</mat-button-toggle>
+
+            <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 2}" (click)="onTabClick(2)"
+                [class.active]="isActive('btn3')" (click)="setActive('btn3')" (click)="filterSelection1('cars')">
+                Pannels</mat-button-toggle>
+
+            <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 3}" (click)="onTabClick(3)"
+                [class.active]="isActive('btn4')" (click)="setActive('btn4')" (click)="filterSelection1('people')">
+                Inverters</mat-button-toggle>
+        </mat-button-toggle-group>
+
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row container px-4 py-5" id="custom-cards">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" id="colu">
+
+
+            <div class="col column nature show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column nature show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column nature show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column people show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column people show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column people show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column cars show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column cars show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col column cars show">
+                <div class="card">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Hanging Icons -->
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Product Features</h2>
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+            <div class="icon-square me-3">
+                <mat-icon>flash_on</mat-icon>
+            </div>
+
+            <div>
+                <h2>Featured title</h2>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                    and probably just keep going until we run out of words.</p>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div class="icon-square me-3">
+                <mat-icon>question_answer</mat-icon>
+            </div>
+            <div>
+                <h2>Featured title</h2>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                    and probably just keep going until we run out of words.</p>
+            </div>
+        </div>
+        <div class="col d-flex align-items-start">
+            <div class="icon-square me-3">
+                <mat-icon>build</mat-icon>
+            </div>
+            <div>
+                <h2>Featured title</h2>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                    and probably just keep going until we run out of words.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end Hanging Icons -->
