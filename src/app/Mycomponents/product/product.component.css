@@ -198,7 +198,7 @@ padding: 2px 16px;
 
 /* MY PHONE & CHIRANTANS(Iphone 7+) */
 /* Media Query For from 410px */
-@media (min-width: 410px) {
+@media (min-width: 400px) {
 
     .mat-button-toggle-group
     {
