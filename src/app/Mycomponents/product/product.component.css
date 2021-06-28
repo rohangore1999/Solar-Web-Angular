@@ -197,7 +197,7 @@ padding: 2px 16px;
 /* Media Query End For from MAX 430px */
 
 /* MY PHONE & CHIRANTANS(Iphone 7+) */
-/* Media Query For from 410px */
+/* Media Query For from 400px */
 @media (min-width: 400px) {
 
     .mat-button-toggle-group
@@ -220,5 +220,32 @@ padding: 2px 16px;
     }
 }
 
-/* Media Query End For from MAX 410px */
+/* Media Query End For from MAX 400px */
+
+/* Uppu's Phone */
+/* Media Query For from 350px */
+@media (min-width: 350px) {
+
+    .mat-button-toggle-group
+    {
+        width: 91%;
+    }
+
+    .btn
+    {
+        border: none;
+        outline: none;
+        padding: 3px 0px;
+        background-color: white;
+        cursor: pointer;
+        margin-right: -2%;
+    }
+    
+    .myBtnContainer{
+        width: 118%;
+        margin-left: -4%;
+    }
+}
+
+/* Media Query End For from MAX 350px */
 
