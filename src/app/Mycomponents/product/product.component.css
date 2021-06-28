@@ -105,6 +105,13 @@ padding: 2px 16px;
     -webkit-tap-highlight-color: transparent;
 }
 
+.myBtnContainer{
+    width: 51%;
+    }
+
+.btn{
+    width: 27%;
+}
 /* Media Query For to MAX 475px */
 @media (max-width: 475px) {
 
@@ -189,6 +196,7 @@ padding: 2px 16px;
 
 /* Media Query End For from MAX 430px */
 
+/* MY PHONE & CHIRANTANS(Iphone 7+) */
 /* Media Query For from 410px */
 @media (min-width: 410px) {
 
@@ -205,6 +213,10 @@ padding: 2px 16px;
         background-color: white;
         cursor: pointer;
         margin-right: -2%;
+    }
+    
+    .myBtnContainer{
+        width: 104%;
     }
 }
 
