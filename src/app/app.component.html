@@ -57,4 +57,20 @@
     <mat-icon class="my-float" svgIcon="whatsapp" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
   </a>
 
+<!-- google pay button -->
+
+<google-pay-button
+    environment="TEST"
+    buttonType="buy"
+    buttonColor="black"
+    [paymentRequest]="paymentRequest"
+    (loadpaymentdata)="onLoadPaymentData($event)"
+    (error)="onError($event)"
+    [paymentAuthorizedCallback]="onPaymentDataAuthorized"
+  >
+  </google-pay-button>
+
+<!-- END google pay button -->
+
+
 <router-outlet></router-outlet>

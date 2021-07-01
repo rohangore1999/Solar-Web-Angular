@@ -24,6 +24,7 @@
     "@angular/platform-browser": "~11.2.13",
     "@angular/platform-browser-dynamic": "~11.2.13",
     "@angular/router": "~11.2.13",
+    "@google-pay/button-angular": "^2.4.1",
     "bootstrap": "^5.0.1",
     "express": "^4.17.1",
     "jquery": "^3.6.0",
