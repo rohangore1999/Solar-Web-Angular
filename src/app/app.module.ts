@@ -13,6 +13,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { FormsModule } from '@angular/forms';
 import { GooglePayButtonModule } from '@google-pay/button-angular';
+import { ViewproductComponent } from './Mycomponents/viewproduct/viewproduct.component';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
+import { MysheetComponent } from './Mycomponents/mysheet/mysheet.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { GooglePayButtonModule } from '@google-pay/button-angular';
     ProductComponent,
     BannersComponent,
     AboutComponent,
-    NavbarComponent
+    NavbarComponent,
+    ViewproductComponent,
+    MysheetComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,8 @@ import { GooglePayButtonModule } from '@google-pay/button-angular';
     MatIconModule,
     MatButtonToggleModule,
     FormsModule,
-    GooglePayButtonModule
+    GooglePayButtonModule,
+    MatBottomSheetModule
   ],
   providers: [],
   bootstrap: [AppComponent]

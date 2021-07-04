@@ -12,9 +12,9 @@
             set active when 'tabIndex === 0' returns true |  mat-raised-button
          -->
         <mat-button-toggle-group appearance="legacy">
-            <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 0}" (click)="onTabClick(0)" routerLink="/product"
-                [routerLinkActive]="['active']" [class.active]="isActive('btn1')" (click)="setActive('btn1')"
-                (click)="filterSelection1('all')"> Show
+            <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 0}" (click)="onTabClick(0)"
+                routerLink="/product" [routerLinkActive]="['active']" [class.active]="isActive('btn1')"
+                (click)="setActive('btn1')" (click)="filterSelection1('all')"> Show
                 all</mat-button-toggle>
 
             <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 1}" (click)="onTabClick(1)"
@@ -40,7 +40,9 @@
             <div class="col column batteries show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/0">
+                            <img src="assets/prod-imgs/prod0.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -50,7 +52,9 @@
             <div class="col column batteries show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/1">
+                            <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -60,7 +64,9 @@
             <div class="col column batteries show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/2">
+                            <img src="assets/prod-imgs/prod2.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -70,7 +76,9 @@
             <div class="col column pannels show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/3">
+                            <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -80,7 +88,9 @@
             <div class="col column pannels show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/4">
+                            <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -90,7 +100,9 @@
             <div class="col column pannels show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/5">
+                            <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -100,7 +112,9 @@
             <div class="col column pannels show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/6">
+                            <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -110,7 +124,9 @@
             <div class="col column inverters show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/7">
+                            <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
@@ -120,7 +136,9 @@
             <div class="col column inverters show">
                 <div class="card">
                     <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
-                        <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        <a routerLink="viewproduct/8">
+                            <img src="assets/prod-imgs/prod1.png" alt="Avatar" style="width:100%">
+                        </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                         </div>
                     </div>
