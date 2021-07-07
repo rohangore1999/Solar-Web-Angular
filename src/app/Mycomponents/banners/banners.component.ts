@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { AuthService } from 'src/app/Services/auth.service';
 
 @Component({
   selector: 'app-banners',
@@ -7,9 +8,15 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class BannersComponent implements OnInit {
 
-  constructor() { }
+  text: string;
+
+  constructor(private auth: AuthService) { }
 
   ngOnInit(): void {
+  }
+
+  onSubmit(){
+    this.auth.send_post_request(this.text).subscribe()
   }
 
 }
