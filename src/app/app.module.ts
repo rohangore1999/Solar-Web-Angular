@@ -11,12 +11,14 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GooglePayButtonModule } from '@google-pay/button-angular';
 import { ViewproductComponent } from './Mycomponents/viewproduct/viewproduct.component';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MysheetComponent } from './Mycomponents/mysheet/mysheet.component';
 import { HttpClientModule } from '@angular/common/http'
+import {MatInputModule} from '@angular/material/input';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,10 @@ import { HttpClientModule } from '@angular/common/http'
     FormsModule,
     GooglePayButtonModule,
     MatBottomSheetModule,
-    HttpClientModule
+    HttpClientModule,
+    MatInputModule,
+    ReactiveFormsModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
