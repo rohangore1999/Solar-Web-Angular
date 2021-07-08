@@ -51,13 +51,20 @@ export class BannersComponent implements OnInit {
         "comment": this.comment,
         "phone": this.phone
       }).subscribe()
+    
+    this.firstname = ' ';
+    this.lastname = ' ';
+    this.email = '';
+    this.address = ' ';
+    this.city = ' ';
+    this.state = ' ';
+    this.postalcode = 0
+    this.comment = ' ';
+    this.phone = ' ';
   }
 
   openSnackBar(message: string, action: string) {
     this._snackBar.open(message, action);
   }
-
-
-
 
 }

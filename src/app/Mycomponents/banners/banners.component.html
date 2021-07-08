@@ -85,9 +85,12 @@
     </div>
   </div>
 </div>
-
 <!-- End Center banner -->
 
+<!-- Query Form -->
+<div class="py-5 text-center">
+  <h1>Any Query??</h1>
+</div>
 <div class="container text-center d-flex align-items-center justify-content-center">
   <form class="example-form" (ngSubmit)="onSubmit()">
 
@@ -179,8 +182,10 @@
     </mat-form-field>
 
     <!-- <button type="submit" mat-raised-button color="primary">Submit</button> -->
-    <ng-template [ngIf]="this.firstname && this.lastname && this.email && this.address && this.city && this.state && this.postalcode && this.comment && this.phone"><button mat-raised-button color="primary"
-      (click)="openSnackBar('Thanks for your Feedback', 'OK')">Send</button></ng-template>
+    <ng-template
+      [ngIf]="this.firstname && this.lastname && this.email && this.address && this.city && this.state && this.postalcode && this.comment && this.phone">
+      <button mat-raised-button color="primary" (click)="openSnackBar('Thanks for your Feedback', 'OK')">Send</button>
+    </ng-template>
     <br><br><br>
   </form>
 
@@ -193,3 +198,5 @@
 
   <input type="submit" class="btn btn-block" value="Save Task"/>
 </form> -->
+
+<!-- END Query Form -->
