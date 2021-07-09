@@ -40,13 +40,13 @@
       </a>
 
       <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 text-dark text-decoration-none" routerLinkActive="active" routerLink="/"
+        <a class="me-3 py-2 text-dark text-decoration-none hover-underline-animation" routerLinkActive="active a" routerLink="/"
           [routerLinkActiveOptions]="{exact: true}">HOME</a>
 
-        <a class="me-3 py-2 text-dark text-decoration-none" [routerLinkActive]="['active']" routerLink="/product"
+        <a class="me-3 py-2 text-dark text-decoration-none hover-underline-animation" [routerLinkActive]="['active']" routerLink="/product"
           (click)="filterSelection1('all')">PRODUCT</a>
 
-        <a class="py-2 text-dark text-decoration-none" [routerLinkActive]="['active']" routerLink="/about">ABOUT</a>
+        <a class="py-2 text-dark text-decoration-none hover-underline-animation" [routerLinkActive]="['active']" routerLink="/about">ABOUT</a>
       </nav>
     </div>
   </header>
