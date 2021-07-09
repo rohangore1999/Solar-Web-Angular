@@ -183,7 +183,7 @@
 
     <!-- <button type="submit" mat-raised-button color="primary">Submit</button> -->
     <ng-template
-      [ngIf]="this.firstname && this.lastname && this.email && this.address && this.city && this.state && this.postalcode && this.comment && this.phone">
+      [ngIf]="this.firstname && this.lastname && this.email && this.address && this.city && this.state && this.postalcode && this.comment && this.phone && !emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
       <button mat-raised-button color="primary" (click)="openSnackBar('Thanks for your Feedback', 'OK')">Send</button>
     </ng-template>
     <br><br><br>

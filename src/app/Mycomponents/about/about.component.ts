@@ -25,12 +25,12 @@ import { Component, OnInit } from '@angular/core';
       ])
     ]),
 
-    trigger('otherdiv',[
-      transition('* => *',[
-        query(":self", style({opacity:0, transform: 'translateX(-40px '})),
+    trigger('otherdiv', [
+      transition('* => *', [
+        query(":self", style({ opacity: 0, transform: 'translateX(-40px ' })),
 
         query(":self", stagger('100ms', [
-          animate('800ms 1.2s ease-out', style({opacity: 1, transform: 'translateX(0)'}))
+          animate('800ms 1.2s ease-out', style({ opacity: 1, transform: 'translateX(0)' }))
         ]))
       ])
     ])

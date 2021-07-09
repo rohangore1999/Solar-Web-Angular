@@ -1,3 +1,4 @@
+import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -15,19 +16,27 @@ const delivery = `
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
-  styleUrls: ['./product.component.css']
+  styleUrls: ['./product.component.css'],
+  animations: [
+    trigger('fade', [
+      transition('void => *', [
+        style({ opacity: 0 }),
+        animate(2000, style({ opacity: 1 }))
+      ])
+    ])
+  ]
 })
 export class ProductComponent implements OnInit {
 
 
   @Input() Fil: string
-  btnshow:boolean = true
+  btnshow: boolean = true
 
-  
+
 
   activeButton
-  
-  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) { 
+
+  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
     // Note that we provide the icon here as a string literal here due to a limitation in
     // Stackblitz. If you want to provide the icon from a URL, you can use:
     // `iconRegistry.addSvgIcon('thumbs-up', sanitizer.bypassSecurityTrustResourceUrl('icon.svg'));`
@@ -40,18 +49,18 @@ export class ProductComponent implements OnInit {
   }
 
   tabIndex = 0;
-  onTabClick(index){
-      this.tabIndex = index;
+  onTabClick(index) {
+    this.tabIndex = index;
   }
 
   filterSelection1(fil) {
     filterSelection(fil)
   }
 
-  setActive (buttonName) {
+  setActive(buttonName) {
     this.activeButton = buttonName;
   }
-  isActive (buttonName) {
+  isActive(buttonName) {
     return this.activeButton === buttonName;
   }
 
