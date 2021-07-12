@@ -40,6 +40,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
   name: string;
   name2: string;
+  router: any;
   constructor() { }
 
   ngOnInit(): void {

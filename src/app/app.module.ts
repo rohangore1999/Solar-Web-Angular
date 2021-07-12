@@ -19,6 +19,7 @@ import { MysheetComponent } from './Mycomponents/mysheet/mysheet.component';
 import { HttpClientModule } from '@angular/common/http'
 import {MatInputModule} from '@angular/material/input';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     AboutComponent,
     NavbarComponent,
     ViewproductComponent,
-    MysheetComponent
+    MysheetComponent,
+    MoreAboutSolarComponent
   ],
   imports: [
     BrowserModule,

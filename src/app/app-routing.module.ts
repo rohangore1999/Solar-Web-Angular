@@ -4,13 +4,15 @@ import { ProductComponent } from './Mycomponents/product/product.component'
 import { BannersComponent } from './Mycomponents/banners/banners.component'
 import { AboutComponent } from './Mycomponents/about/about.component'
 import { ViewproductComponent } from './Mycomponents/viewproduct/viewproduct.component';
+import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
 
 
 const routes: Routes = [
   { path: '', component: BannersComponent },
   { path: 'product', component: ProductComponent },
   { path: 'product/viewproduct/:id', component: ViewproductComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'more-about-solar', component: MoreAboutSolarComponent }
 ];
 
 @NgModule({
