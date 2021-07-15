@@ -83,7 +83,7 @@
     height: auto;
 }
 .parallax-2{
-    background: url('/assets/prod-imgs/pexels-rodnae-productions-7563564.jpg') repeat fixed 100%;
+    background: url('/assets/prod-imgs/pexels-rodnae-productions-7563564.jpg');
     background-size: cover;
     color: aliceblue;
     width: 100%;
