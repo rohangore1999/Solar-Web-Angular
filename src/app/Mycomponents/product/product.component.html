@@ -28,6 +28,10 @@
             <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 3}" (click)="onTabClick(3)"
                 [class.active]="isActive('btn4')" (click)="setActive('btn4')" (click)="filterSelection1('inverters')">
                 Inverters</mat-button-toggle>
+
+            <mat-button-toggle class="btn other" [ngClass]="{'active': tabIndex == 4}" (click)="onTabClick(4)"
+            [class.active]="isActive('btn5')" (click)="setActive('btn5')" (click)="filterSelection1('others')">
+            Others</mat-button-toggle>
         </mat-button-toggle-group>
 
     </div>

@@ -180,7 +180,7 @@ padding: 2px 16px;
 /* Media Query End For from MIN 430px */
 
 /* Media Query For to Max 430px */
-@media (max-width: 430px) {
+@media (min-width: 450px) {
 
     .mat-button-toggle-group
     {
@@ -201,12 +201,14 @@ padding: 2px 16px;
 /* Media Query End For from MAX 430px */
 
 /* MY PHONE & CHIRANTANS(Iphone 7+) */
-/* Media Query For from 400px */
-@media (min-width: 400px) {
+/* Media Query For from 400px */ 
+@media only screen and (min-width: 400px) and (max-width: 449px) {
 
     .mat-button-toggle-group
     {
-        width: 91%;
+        width: 102%;
+        margin-left: -3.5%;
+        padding-right: 3%;
     }
 
     .btn
@@ -217,11 +219,27 @@ padding: 2px 16px;
         background-color: white;
         cursor: pointer;
         margin-right: -2%;
+        font-size: 14px;
     }
     
     .myBtnContainer{
         width: 104%;
     }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 399px) {
+    .mat-button-toggle-group{
+        height: 38px;
+        padding-right: 68px;
+        margin-left: -7%;
+        width: 209%;
+    }
+
+
+    .btn {
+        font-size: 14px;
+    }
+
 }
 
 /* Media Query End For from MAX 400px */
