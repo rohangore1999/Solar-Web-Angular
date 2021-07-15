@@ -68,7 +68,7 @@
 }
 
 .parallax{
-    background: url('/assets/prod-imgs/pexels-ylanite-koppens-934071.jpg');
+    background: url('/assets/prod-imgs/pexels-ylanite-koppens-934071.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
     width: 100%;
@@ -83,11 +83,12 @@
     height: auto;
 }
 .parallax-2{
-    background: url('/assets/prod-imgs/pexels-rodnae-productions-7563564.jpg');
+    background: url('/assets/prod-imgs/pexels-rodnae-productions-7563564.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
     width: 100%;
     height: auto;
+    
 }
 .parallax-inner{
     padding-top: 20%;
