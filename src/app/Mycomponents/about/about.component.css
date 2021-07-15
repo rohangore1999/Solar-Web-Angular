@@ -21,21 +21,73 @@
     padding-top: 1%;
     }
 
+#about{
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    left: 50%;
+    width: 80%;
+    /* padding: 20px; */
+}
+
+#mission{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  left: 50%;
+  width: 80%;
+  padding: 20px;
+}
+
+#vision{
+    text-align: center;
+    color: white;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    left: 50%;
+    width: 80%;
+    padding: 20px;
+}
 
 .parallax{
-    background: url('https://images.pexels.com/photos/2609107/pexels-photo-2609107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background: url('/assets/prod-imgs/pexels-ylanite-koppens-934071.jpg');
     background-size: cover;
     color: aliceblue;
+    width: 100%;
+    height: 100%;
+    
 }
 .parallax-1{
-    background: url('https://images.pexels.com/photos/1835712/pexels-photo-1835712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background: url('/assets/prod-imgs/pexels-polina-zimmerman-3782235_copy.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
+    width: 100%;
+    height: auto;
 }
 .parallax-2{
-    background: url('https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background: url('/assets/prod-imgs/pexels-rodnae-productions-7563564.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
+    width: 100%;
+    height: auto;
 }
 .parallax-inner{
     padding-top: 20%;
@@ -53,10 +105,48 @@ h1{
     text-align: center;
 }
 
-@media (min-width: 380px) {
+/* hovering */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    top:70px;
+    background-color: #000000;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  
+
+
+@media (min-width: 380px){
 
     h1{
         font-size: 90px;
         text-align: center;
+    }
+}
+@media (min-width: 380px) and (max-width: 449px){
+    h1{
+        font-size: 41px;
+    }
+
+    .hover-underline-animation:after{
+        top:40px;
     }
 }
