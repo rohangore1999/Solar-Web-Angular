@@ -68,22 +68,24 @@
 }
 
 .parallax{
-    background: url('/assets/prod-imgs/pexels-ylanite-koppens-934071.jpg') repeat fixed 100%;
+    background: url('/assets/prod-imgs/pexels-ylanite-koppens-934071_copy-min.jpg') repeat fixed 50%;
     background-size: cover;
     color: aliceblue;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    max-width: 100%; 
+    display: block; 
+    height: auto;
     
 }
 .parallax-1{
-    background: url('/assets/prod-imgs/pexels-polina-zimmerman-3782235_copy.jpg') repeat fixed 100%;
+    background: url('/assets/prod-imgs/pexels-polina-zimmerman-3782235_copy-min.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
     width: 100%;
     height: auto;
 }
 .parallax-2{
-    background: url('/assets/prod-imgs/pexels-rodnae-productions-7563564.jpg') repeat fixed 100%;
+    background: url('/assets/prod-imgs/pexels-rodnae-productions-7563564-min.jpg') repeat fixed 50%;
     background-size: cover;
     color: aliceblue;
     width: 100%;
