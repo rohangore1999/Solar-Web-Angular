@@ -1,0 +1,12 @@
+button{
+    width: 7%; 
+    margin-left: 1px; 
+    margin-top: 1%;
+    font-size: 15px;
+}
+
+@media (min-width: 380px) and (max-width: 449px){
+    button{
+        width: 22%;
+    }
+}

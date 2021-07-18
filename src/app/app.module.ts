@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http'
 import {MatInputModule} from '@angular/material/input';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
+import { ShippingAddressComponent } from './Mycomponents/shipping-address/shipping-address.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-ab
     NavbarComponent,
     ViewproductComponent,
     MysheetComponent,
-    MoreAboutSolarComponent
+    MoreAboutSolarComponent,
+    ShippingAddressComponent
   ],
   imports: [
     BrowserModule,

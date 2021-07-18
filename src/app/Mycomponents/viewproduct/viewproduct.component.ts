@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { ActivatedRoute } from '@angular/router';
 import datas from '../../db.json'
-import { MysheetComponent } from '../mysheet/mysheet.component';
+import { ShippingAddressComponent } from '../shipping-address/shipping-address.component';
 
 @Component({
   selector: 'app-viewproduct',
@@ -25,7 +25,7 @@ export class ViewproductComponent implements OnInit {
   }
 
   openBottomSheet(){
-    this.bottomSheet.open(MysheetComponent)
+    this.bottomSheet.open(ShippingAddressComponent)
   }
 
 }

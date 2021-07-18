@@ -31,7 +31,6 @@
     
   }
 
-
   .example-form {
     min-width: 150px;
     max-width: 500px;
@@ -44,4 +43,13 @@
     padding: .75em .75em 0 .75em;
 }
 
-  
+.carousel-item {
+  height: 817px;
+}
+
+@media (min-width: 380px) and (max-width: 449px){
+  .carousel-item {
+    height: auto;
+  }
+}
+

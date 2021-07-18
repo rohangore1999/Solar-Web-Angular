@@ -114,6 +114,10 @@ padding: 2px 16px;
     width: 27%;
 }
 
+.flex-column{
+    color: black;
+    margin-top: -12%;
+}
 
 /* MEDIA QUERY */
 /* Media Query For to MAX 475px */

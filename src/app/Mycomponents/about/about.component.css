@@ -134,7 +134,38 @@ h1{
     transform-origin: bottom left;
   }
 
-  
+  .offset-lg-1 {
+    margin-left: -4.666667%;
+}
+
+  .pt-lg-5 {
+    padding-top: 0rem!important;
+}
+
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 46.333333%;
+}
+
+.mission-vision{
+    margin-left: -2%;
+    width: 47%;
+}
+
+.left {
+    width: 70%;
+      float: left;
+}
+.right {
+    width: 30%;
+      float: right;
+}
+
+@media only screen and (max-width : 768px) {
+ .left, .right {
+          width: 100%;
+   }
+}
 
 
 @media (min-width: 380px){
@@ -144,6 +175,7 @@ h1{
         text-align: center;
     }
 }
+
 @media (min-width: 380px) and (max-width: 449px){
     h1{
         font-size: 41px;
@@ -151,5 +183,20 @@ h1{
 
     .hover-underline-animation:after{
         top:40px;
+    }
+
+    .col-lg-4{
+        flex: 0 0 auto;
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .mission-vision{
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .left, .right {
+        width: 100%;
     }
 }
