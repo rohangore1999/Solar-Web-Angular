@@ -21,6 +21,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
 import { ShippingAddressComponent } from './Mycomponents/shipping-address/shipping-address.component';
+import { AdminpanelComponent } from './Mycomponents/adminpanel/adminpanel.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ShippingAddressComponent } from './Mycomponents/shipping-address/shippi
     ViewproductComponent,
     MysheetComponent,
     MoreAboutSolarComponent,
-    ShippingAddressComponent
+    ShippingAddressComponent,
+    AdminpanelComponent
   ],
   imports: [
     BrowserModule,
