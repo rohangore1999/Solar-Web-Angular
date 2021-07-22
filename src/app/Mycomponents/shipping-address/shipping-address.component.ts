@@ -15,6 +15,7 @@ export class ShippingAddressComponent implements OnInit {
   email: string;
   state: string;
   zip: string;
+  phone: string;
 
   constructor(private bottomSheet: MatBottomSheet, private auth: AuthService) { }
 
@@ -32,6 +33,7 @@ export class ShippingAddressComponent implements OnInit {
     console.log(this.email)
     console.log(this.state)
     console.log(this.zip)
+    console.log(this.phone)
 
     this.auth.send_ship_request(
       {
@@ -40,7 +42,8 @@ export class ShippingAddressComponent implements OnInit {
         "email": this.email,
         "address": this.address,
         "state": this.state,
-        "zip": this.zip
+        "zip": this.zip,
+        "phone":this.phone
       }).subscribe()
   }
 

@@ -233,6 +233,10 @@ padding: 2px 16px;
     .myBtnContainer{
         width: 104%;
     }
+
+    .card-cover{
+        padding-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 380px) and (max-width: 399px) {
@@ -246,6 +250,10 @@ padding: 2px 16px;
 
     .btn {
         font-size: 14px;
+    }
+
+    .card-cover{
+        padding-top: 10%;
     }
 
 }

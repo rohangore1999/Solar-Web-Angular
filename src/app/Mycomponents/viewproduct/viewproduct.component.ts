@@ -5,6 +5,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import datas from '../../db.json'
 import { ShippingAddressComponent } from '../shipping-address/shipping-address.component';
+import { AuthService } from 'src/app/Services/auth.service';
 
 
 const low_light = `
@@ -32,7 +33,7 @@ export class ViewproductComponent implements OnInit {
   productID = 0
   datas: [] = datas
 
-  constructor(private activatedRoute: ActivatedRoute, private bottomSheet: MatBottomSheet, iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
+  constructor(private activatedRoute: ActivatedRoute, private bottomSheet: MatBottomSheet, iconRegistry: MatIconRegistry, sanitizer: DomSanitizer, private auth: AuthService) {
     iconRegistry.addSvgIconLiteral('low_light', sanitizer.bypassSecurityTrustHtml(low_light));
     iconRegistry.addSvgIconLiteral('power_tolerace', sanitizer.bypassSecurityTrustHtml(power_tolerace));
     iconRegistry.addSvgIconLiteral('extreme_weater', sanitizer.bypassSecurityTrustHtml(extreme_weater));
@@ -50,6 +51,11 @@ export class ViewproductComponent implements OnInit {
 
   openBottomSheet() {
     this.bottomSheet.open(ShippingAddressComponent)
+  }
+
+  addtocart(item){
+    console.log(item)
+    this.auth.sendMsg(item)
   }
 
 }

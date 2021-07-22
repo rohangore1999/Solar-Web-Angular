@@ -21,7 +21,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
 import { ShippingAddressComponent } from './Mycomponents/shipping-address/shipping-address.component';
-import { AdminpanelComponent } from './Mycomponents/adminpanel/adminpanel.component';
+import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,7 @@ import { AdminpanelComponent } from './Mycomponents/adminpanel/adminpanel.compon
     MysheetComponent,
     MoreAboutSolarComponent,
     ShippingAddressComponent,
-    AdminpanelComponent
+    AddtoCartComponent
   ],
   imports: [
     BrowserModule,

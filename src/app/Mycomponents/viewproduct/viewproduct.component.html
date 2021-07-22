@@ -11,22 +11,30 @@
                     <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0"
                             src="/assets/prod-imgs/pannels/pann{{productID}}.png" alt="..." /></div>
                     <div class="col-md-6">
-                        <div class="small mb-1">SKU: BST-498</div>
-                        <h1 class="display-5 fw-bolder">Shop item template</h1>
+                        <div class="small mb-1">{{item.small_title}}</div>
+                        <h1 class="display-5 fw-bolder">{{item.title}}</h1>
                         <div class="fs-5 mb-5">
                             <span class="text-decoration-line-through">$45.00</span>
                             <span>$40.00</span>
                         </div>
-                        <p class="lead">{{item.description}}</p>
+                        
+                        <h1><b>Description:</b></h1>
+                        <p>{{item.description}}</p>
+
+                        <br>
+                        
+                        <h1><b>Specification:</b></h1>
+                        <ng-container *ngFor="let i of item.specifications">
+                            <li>{{i}}</li>
+                        </ng-container>
+                        
+                        <br>
+
                         <div class="d-flex">
-                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1"
-                                style="max-width: 3rem" />
-                            <!-- <button class="btn btn-outline-dark flex-shrink-0" type="button">
-                                <i class="bi-cart-fill me-1"></i>
-                                Add to cart
-                            </button> -->
                             <button mat-raised-button (click)="openBottomSheet()">Buy</button>
+                            <button mat-raised-button style="margin-left: 1%;" (click)="addtocart(item)">Add to Cart</button>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -59,7 +67,8 @@
                     <div class="col d-flex align-items-start">
                         <div class="icon-square me-3">
                             <!-- <mat-icon>question_answer</mat-icon> -->
-                            <mat-icon svgIcon="power_tolerace" aria-hidden="false" aria-label="Example thumbs up SVG icon">
+                            <mat-icon svgIcon="power_tolerace" aria-hidden="false"
+                                aria-label="Example thumbs up SVG icon">
                             </mat-icon>
                         </div>
                         <div>

@@ -1,6 +1,8 @@
 <div class="container">
     <div>
-        <h2 class="mb-3">Billing address</h2>
+        <br>
+        <h2 class="mb-3">Shipping Details</h2>
+        <hr>
         <form class="needs-validation" novalidate (ngSubmit)="onSubmit()">
             <div class="row g-3">
                 <div class="col-sm-6">
@@ -59,7 +61,18 @@
                         Zip code required.
                     </div>
                 </div>
-                <ng-template [ngIf]="this.firstname && this.lastname && this.email && this.address && this.state && this.zip">
+
+                <div class="col-md-3">
+                    <label for="phone" class="form-label">Phone No*</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="" name="phone"
+                        [(ngModel)]="phone" required>
+                    <div class="invalid-feedback">
+                        Zip code required.
+                    </div>
+                </div>
+                
+
+                <ng-template [ngIf]="this.firstname && this.lastname && this.email && this.address && this.state && this.zip && this.phone">
                     <div class="col-12">
                         <button mat-raised-button color="primary" class="btn btn-primary btn-lg"
                             (click)="openBottomSheet()">Submit</button>

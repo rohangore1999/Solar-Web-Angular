@@ -16,42 +16,404 @@
     },
     {
         "id": 3,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV12V40",
+        "title": "Livfast Solar Panel LFV12V40",
+        "description": "Livfast Solar Panels are polycrystalline PV panels, IEC compliant having range from 40 W – 325 W. Our Panels are ideally suited for rooftop and agricultural applications",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 40",
+            "No. of Cells – 36",
+            "Rated Module Voltage – 12",
+            "Voltage at Maximum Power (Vmp) in Volts – 17.5",
+            "Current at Maximum Power (Imp) in Amps – 2.46",
+            "Open Circuit Voltage (Voc) in Volts – 21",
+            "Short Circuit Current (Isc) in Amps – 2.54",
+            "Maximum System Voltage (VDC)- 600",
+            "Module Efficiency ŋ (%) – >12%"
+        ],
         "price": "$400"
     },
     {
         "id": 4,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV12V100",
+        "title": "Livfast Solar Panel LFV12V100",
+        "description": "Livfast Solar Panels are polycrystalline PV panels, IEC compliant having range from 40 W – 325 W. Our Panels are ideally suited for rooftop and agricultural applications.",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 100",
+            "No. of Cells – 36",
+            "Rated Module Voltage – 12",
+            "Voltage at Maximum Power (Vmp) in Volts – 18",
+            "Current at Maximum Power (Imp) in Amps – 5.66",
+            "Open Circuit Voltage (Voc) in Volts – 22",
+            "Short Circuit Current (Isc) in Amps – 6.06",
+            "Maximum System Voltage (VDC)- 600",
+            "Module Efficiency ŋ (%) – >14%",
+            "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+        ],
         "price": "$400"
     },
     {
         "id": 5,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV12V160",
+        "title": "Livfast Solar Panel LFV12V160",
+        "description": "Livfast Solar Panels are polycrystalline PV panels, IEC compliant having range from 40 W – 325 W. Our Panels are ideally suited for rooftop and agricultural applications.",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 160",
+            "No. of Cells – 36",
+            "Rated Module Voltage – 12",
+            "Voltage at Maximum Power (Vmp) in Volts – 18.2",
+            "Current at Maximum Power (Imp) in Amps – 8.79",
+            "Open Circuit Voltage (Voc) in Volts – 22.2",
+            "Short Circuit Current (Isc) in Amps – 9.34",
+            "Maximum System Voltage (VDC)- 1000",
+            "Module Efficiency ŋ (%) – >16%",
+            "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+        ],
         "price": "$400"
     },
     {
         "id": 6,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV12V165M",
+        "title": "Livfast Solar Panel LFV12V165M",
+        "description": "Livfast 165 W Solar Panel is a mono perc PV panel, IEC and MNRE compliant. Our panels are ideally suited for rooftop and agricultural applications.",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 165",
+            "No. of Cells – 32",
+            "Rated Module Voltage – 12",
+            "Voltage at Maximum Power (Vmp) in Volts – 17.65",
+            "Current at Maximum Power (Imp) in Amps – 9.42",
+            "Open Circuit Voltage (Voc) in Volts – 21.82",
+            "Short Circuit Current (Isc) in Amps – 9.8",
+            "Maximum System Voltage (VDC)- 1000",
+            "Module Efficiency ŋ (%) – >18%",
+            "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+        ],
         "price": "$400"
     },
     {
         "id": 7,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV12V50",
+        "title": "Livfast Solar Panel LFV12V50",
+        "description": "Livfast Solar Panels are polycrystalline PV panels, IEC compliant having range from 40 W – 325 W. Our Panels are ideally suited for rooftop and agricultural applications.",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 50",
+            "No. of Cells – 36",
+            "Rated Module Voltage – 12",
+            "Voltage at Maximum Power (Vmp) in Volts – 18",
+            "Current at Maximum Power (Imp) in Amps – 2.78",
+            "Open Circuit Voltage (Voc) in Volts – 22",
+            "Short Circuit Current (Isc) in Amps – 3.28",
+            "Maximum System Voltage (VDC)- 600",
+            "Module Efficiency ŋ (%) – >12%",
+            "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+        ],
         "price": "$400"
     },
     {
         "id": 8,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV12V75",
+        "title": "Livfast Solar Panel LFV12V75",
+        "description": "Livfast Solar Panels are polycrystalline PV panels, IEC compliant having range from 40 W – 325 W. Our Panels are ideally suited for rooftop and agricultural applications.",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 75",
+            "No. of Cells – 36",
+            "Rated Module Voltage – 12",
+            "Voltage at Maximum Power (Vmp) in Volts – 18",
+            "Current at Maximum Power (Imp) in Amps – 4.17",
+            "Open Circuit Voltage (Voc) in Volts – 22",
+            "Short Circuit Current (Isc) in Amps – 4.67",
+            "Maximum System Voltage (VDC)- 600",
+            "Module Efficiency ŋ (%) – >14%",
+            "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+        ],
         "price": "$400"
     },
     {
         "id": 9,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV24V325",
+        "title": "Livfast Solar Panel LFV24V325",
+        "description": "Livfast Solar Panels are polycrystalline PV panels, IEC compliant having range from 40 W – 325 W. Our Panels are ideally suited for rooftop and agricultural applications.",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 325",
+            "No. of Cells – 72",
+            "Rated Module Voltage – 24",
+            "Voltage at Maximum Power (Vmp) in Volts – 37.8",
+            "Current at Maximum Power (Imp) in Amps – 8.6",
+            "Open Circuit Voltage (Voc) in Volts – 46.2",
+            "Short Circuit Current (Isc) in Amps – 9.13",
+            "Maximum System Voltage (VDC)- 1000",
+            "Module Efficiency ŋ (%) – >16%",
+            "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+        ],
         "price": "$400"
     },
     {
         "id": 10,
-        "description": "sadsan nnqmw",
+        "small_title": "LFV24V375M",
+        "title": "Livfast Solar Panel LFV24V375M",
+        "description": "Livfast 375 W Solar Panel is a mono perc PV panel, IEC and MNRE compliant. Our panels are ideally suited for rooftop and agricultural applications.",
+        "specifications": [
+            "Power (pm) in Watts (Nominal) – 375",
+            "No. of Cells – 72",
+            "Rated Module Voltage – 24",
+            "Voltage at Maximum Power (Vmp) in Volts – 40.3",
+            "Current at Maximum Power (Imp) in Amps – 9.26",
+            "Open Circuit Voltage (Voc) in Volts – 49.1",
+            "Short Circuit Current (Isc) in Amps – 9.70",
+            "Maximum System Voltage (VDC)- 1500",
+            "Module Efficiency ŋ (%) – >19.4%",
+            "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 11,
+        "small_title": "LFS 340L",
+        "title": "Livfast Solar Battery LFS 340L",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 40",
+            "Battery Weight with Acid  (Kg) – 23.2",
+            "Dimension (LxWxH) – 410x174x230 mm",
+            "Free Replacement (Months) – 0 – 36",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 12,
+        "small_title": "LFS 375L",
+        "title": "Livfast Solar Battery LFS 375L",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 75",
+            "Battery Weight with Acid  (Kg) – 29.9",
+            "Dimension (LxWxH) – 410x174x271 mm",
+            "Free Replacement (Months) – 0 – 36",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 13,
+        "small_title": "LFS 5100H",
+        "title": "Livfast Solar Battery LFS 5100H",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 100",
+            "Battery Weight with Acid  (Kg) – 52.4",
+            "Dimension (LxWxH) – 505x190x410 mm",
+            "Free Replacement (Months) – 0 – 60",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 14,
+        "small_title": "LFS 5135H",
+        "title": "Livfast Solar Battery LFS 5135H",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 135",
+            "Battery Weight with Acid  (Kg) – 54.4",
+            "Dimension (LxWxH) – 505x190x430 mm",
+            "Free Replacement (Months) – 0 – 60",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 15,
+        "small_title": "LFS 5150H",
+        "title": "Livfast Solar Battery LFS 5150H",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 150",
+            "Battery Weight with Acid  (Kg) – 54.1",
+            "Dimension (LxWxH) – 505x190x410 mm",
+            "Free Replacement (Months) – 0 – 60",
+            "Pro Rata Warranty (Months) – 37 – 60",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 16,
+        "small_title": "LFS 5165H",
+        "title": "Livfast Solar Battery LFS 5165H",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 165",
+            "Battery Weight with Acid  (Kg) – 59.5",
+            "Dimension (LxWxH) – 505x190x410 mm",
+            "Free Replacement (Months) – 0 – 60",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 17,
+        "small_title": "LFS 5180H",
+        "title": "Livfast Solar Battery LFS 5180H",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 180",
+            "Battery Weight with Acid  (Kg) – 59.5",
+            "Dimension (LxWxH) – 505x190x410 mm",
+            "Free Replacement (Months) – 0 – 60",
+            "Pro Rata Warranty (Months) – 37 – 60",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 18,
+        "small_title": "LFS 5200H",
+        "title": "Livfast Solar Battery LFS 5200H",
+        "description": "Livfast Solar Batteries are C10 rated deep cycle batteries. Innovative Super Tuff 3D design and extra thick tubular plates give longer backup & battery life.",
+        "specifications": [
+            "Nominal Voltage (V) – 12",
+            "Capacity @ C10 (Ah) – 200",
+            "Battery Weight with Acid  (Kg) – 64.5",
+            "Dimension (LxWxH) – 505x190x410 mm",
+            "Free Replacement (Months) – 0 – 60",
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 19,
+        "small_title": "LFS SO1150",
+        "title": "Livfast Solar Inverter LFS SO1150",
+        "description": "Livfast Solar Hybrid UPS provides power from solar battery and grid as per the load profile. It has the highest rated solar charge controller which extracts maximum power from solar modules and reduces electricity bills.",
+        "specifications": [
+            "System Rating – 900VA",
+            "Nominal Battery Voltage (Vdc) – 12V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 295 x 330 x 170 mm",
+            "Net Weight (Kg) – 10"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 20,
+        "small_title": "LFS SO1850",
+        "title": "Livfast Solar Inverter LFS SO1850",
+        "description": "Livfast Solar Hybrid UPS provides power from solar battery and grid as per the load profile. It has the highest rated solar charge controller which extracts maximum power from solar modules and reduces electricity bills.",
+        "specifications": [
+            "System Rating – 1500VA",
+            "Nominal Battery Voltage (Vdc) – 24V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 363 x 398 x 251 mm",
+            "Net Weight (Kg) – 15"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 21,
+        "small_title": "LFS SO2250",
+        "title": "Livfast Solar Inverter LFS SO2250",
+        "description": "Livfast Solar Hybrid UPS provides power from solar battery and grid as per the load profile. It has the highest rated solar charge controller which extracts maximum power from solar modules and reduces electricity bills.",
+        "specifications": [
+            "System Rating – 2000VA",
+            "Nominal Battery Voltage (Vdc) – 24V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 365 x 400 x 250 mm",
+            "Net Weight (Kg) – 16.5"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 22,
+        "small_title": "LFS SO3500",
+        "title": "Livfast Solar PCU LFS SO3500",
+        "description": "Livfast Solar Hybrid PCUs are high capacity, high efficiency solar UPS that runs both on solar & utility (grid) power supply. It has an in-build solar charge controller which extracts maximum power from solar modules to power your appliances & battery charging.",
+        "specifications": [
+            "System Rating – 3.5 KVA",
+            "Nominal Battery Voltage (Vdc) – 48V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 370 x 400 x 320 mm",
+            "Net Weight (Kg) – 28.97"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 23,
+        "small_title": "LFS SO5000",
+        "title": "Livfast Solar PCU LFS SO5000",
+        "description": "Livfast Solar Hybrid PCUs are high capacity, high efficiency solar UPS that runs both on solar & utility (grid) power supply. It has an in-build solar charge controller which extracts maximum power from solar modules to power your appliances & battery charging.",
+        "specifications": [
+            "System Rating – 5 KVA",
+            "Nominal Battery Voltage (Vdc) – 96V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 370 x 510 x 550 mm",
+            "Net Weight (Kg) – 43.79"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 24,
+        "small_title": "LFS SO5048",
+        "title": "Livfast Solar PCU LFS SO5048",
+        "description": "Livfast Solar Hybrid PCUs are high capacity, high efficiency solar UPS that runs both on solar & utility (grid) power supply. It has an in-build solar charge controller which extracts maximum power from solar modules to power your appliances & battery charging.",
+        "specifications": [
+            "System Rating – 5 KVA",
+            "Nominal Battery Voltage (Vdc) – 48V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 370 x 510 x 550 mm",
+            "Net Weight (Kg) – 43.79",
+            "Technology – PWM",
+            "SCC Rating – 70 A"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 25,
+        "small_title": "LFS SO7500",
+        "title": "Livfast Solar PCU LFS SO7500",
+        "description": "Livfast Solar Hybrid PCUs are high capacity, high efficiency solar UPS that runs both on solar & utility (grid) power supply. It has an in-build solar charge controller which extracts maximum power from solar modules to power your appliances & battery charging.",
+        "specifications": [
+            "System Rating – 7.5 KVA",
+            "Nominal Battery Voltage (Vdc) – 120V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 370 x 530 x 620 mm",
+            "Net Weight (Kg) – 64.57"
+        ],
+        "price": "$400"
+    },
+    {
+        "id": 26,
+        "small_title": "LFS SO10000",
+        "title": "Livfast Solar PCU LFS SO10000",
+        "description": "Livfast Solar Hybrid PCUs are high capacity, high efficiency solar UPS that runs both on solar & utility (grid) power supply. It has an in-build solar charge controller which extracts maximum power from solar modules to power your appliances & battery charging.",
+        "specifications": [
+            "System Rating – 10 KVA",
+            "Nominal Battery Voltage (Vdc) – 120V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 370 x 530 x 620 mm",
+            "Net Weight (Kg) – 67.28"
+        ],
         "price": "$400"
     }
 ]

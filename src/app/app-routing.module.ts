@@ -5,7 +5,7 @@ import { BannersComponent } from './Mycomponents/banners/banners.component'
 import { AboutComponent } from './Mycomponents/about/about.component'
 import { ViewproductComponent } from './Mycomponents/viewproduct/viewproduct.component';
 import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
-import { AdminpanelComponent } from './Mycomponents/adminpanel/adminpanel.component';
+import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.component';
 
 
 const routes: Routes = [
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'product/viewproduct/:id', component: ViewproductComponent },
   { path: 'about', component: AboutComponent },
   { path: 'more-about-solar', component: MoreAboutSolarComponent },
-  { path: 'adminpanel', component: AdminpanelComponent }
+  { path: 'addtocart', component: AddtoCartComponent}
 ];
 
 @NgModule({
