@@ -7,6 +7,7 @@
     <ul>
         <li *ngFor="let i of cartitems">{{i.productName}}</li>
     </ul>
-
-    <button mat-raised-button style="margin-left: 1%;" (click)="deleteitem()">Remove</button>
+    <ng-template [ngIf]="cartitems.length">
+        <button mat-raised-button style="margin-left: 1%;" (click)="deleteitem()">Remove</button>
+    </ng-template>
 </div>
