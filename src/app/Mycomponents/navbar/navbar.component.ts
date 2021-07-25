@@ -28,11 +28,18 @@ export class NavbarComponent implements OnInit {
   cart_length = 1;
 
   constructor(private auth: AuthService, private bottomSheet: MatBottomSheet) {
-    
+    this.localItem = localStorage.getItem("cartitem");
+    if (this.localItem == null) {
+      this.cartitems = [];
+
+    }
+    else {
+      this.cartitems = JSON.parse(this.localItem);
+    }
    }
 
   ngOnInit(): void {
-    
+    localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
     // getting data from local storage
     this.localItem = localStorage.getItem("cartitem");
 
