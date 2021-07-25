@@ -39,8 +39,10 @@ export class NavbarComponent implements OnInit {
     // parsing localstorage data
     this.cartitems = JSON.parse(this.localItem);
 
+    // when refresh it will send the loaded items cartlength to behaviorsubject service
     this.auth.changeDataSub(this.cartitems.length)
 
+    // here it is asking for the length from behaviorsubject service
     // From BEHAVIORSUBJECT getting the Cartlength Because it is giving length at any page
     this.auth.currentData.subscribe(dataSub => {
       console.log("This currentData BEHAVIORSUBJECT")
@@ -88,6 +90,7 @@ export class NavbarComponent implements OnInit {
     // parsing localstorage data
     this.localItem = JSON.parse(this.localItem);
 
+    // if the product already exit; then increase the quantity
     for (let i in this.cartitems) {
       if (this.cartitems[i].productName === item.title) {
         console.log("INCREASE QUANTITY")
@@ -99,6 +102,7 @@ export class NavbarComponent implements OnInit {
       }
     }
 
+    // if the product not exit then push
     if (!productExist) {
 
       console.log("PUSH")

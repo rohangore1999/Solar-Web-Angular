@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { AuthService } from 'src/app/Services/auth.service';
 import { MysheetComponent } from '../mysheet/mysheet.component';
+import { AddtoCartComponent } from '../addto-cart/addto-cart.component';
 
 @Component({
   selector: 'app-shipping-address',
@@ -23,7 +24,7 @@ export class ShippingAddressComponent implements OnInit {
   }
 
   openBottomSheet(){
-    this.bottomSheet.open(MysheetComponent)
+    this.bottomSheet.open(AddtoCartComponent)
   }
 
   onSubmit() {

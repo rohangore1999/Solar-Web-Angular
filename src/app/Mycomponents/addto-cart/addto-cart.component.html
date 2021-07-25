@@ -9,5 +9,7 @@
     </ul>
     <ng-template [ngIf]="cartitems.length">
         <button mat-raised-button style="margin-left: 1%;" (click)="deleteitem()">Remove</button>
+
+        <button mat-raised-button (click)="openBottomSheet()">Buy</button>
     </ng-template>
 </div>
