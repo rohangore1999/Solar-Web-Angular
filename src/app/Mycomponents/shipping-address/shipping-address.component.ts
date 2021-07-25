@@ -24,7 +24,7 @@ export class ShippingAddressComponent implements OnInit {
   }
 
   openBottomSheet(){
-    this.bottomSheet.open(AddtoCartComponent)
+    this.bottomSheet.open(MysheetComponent)
   }
 
   onSubmit() {

@@ -2,14 +2,88 @@
 <!-- <app-navbar></app-navbar> -->
 
 <div class="container">
-    <p>My Items:-</p>
+    <!-- <p>My Items:-</p>
 
     <ul>
         <li *ngFor="let i of cartitems">{{i.productName}} - {{i.qty}}</li>
-    </ul>
-    <ng-template [ngIf]="cartitems.length">
-        <button mat-raised-button style="margin-left: 1%;" (click)="deleteitem()">Remove</button>
+    </ul> -->
 
-        <button mat-raised-button (click)="openBottomSheet()">Buy</button>
-    </ng-template>
+    <!-- <div class="container">
+        <div *ngFor="let i of cartitems" class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">World</strong>
+                <h3 class="mb-0">Featured post</h3>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                    additional content.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                        dy=".3em">Thumbnail</text>
+                </svg>
+
+            </div>
+        </div>
+        
+    </div> -->
+
+    <div class="row">
+        <div class="col-md-8 cart">
+            <div class="title">
+                <div class="row">
+                    <div class="col">
+                        <h4><b>Shopping Cart</b></h4>
+                    </div>
+                    <div class="col align-self-center text-right text-muted">3 items</div>
+                </div>
+            </div>
+
+            <div *ngFor="let i of cartitems" class="row border-top border-bottom">
+                <div class="row main align-items-center">
+                    <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/1GrakTl.jpg"></div>
+                    <div class="col">
+                        <div class="row text-muted">Shirt</div>
+                        <div class="row">Cotton T-shirt</div>
+                    </div>
+                    <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
+                    <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- SUMMARY -->
+        <div class="col-md-4 summary">
+            <div>
+                <h5><b>Summary</b></h5>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col" style="padding-left:0;">ITEMS {{this.cartitems.length}}</div>
+                <div class="col text-right">&euro; 132.00</div>
+            </div>
+            <form>
+                <p>SHIPPING</p> <select>
+                    <option class="text-muted">Standard-Delivery- &euro;5.00</option>
+                </select>
+                <p>GIVE CODE</p> <input id="code" placeholder="Enter your code">
+            </form>
+            <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                <div class="col">TOTAL PRICE</div>
+                <div class="col text-right">&euro; 137.00</div>
+            </div> <button class="btn">BUY</button>
+        </div>
+    </div>
+
+
+<!-- <ng-template [ngIf]="cartitems.length">
+    <button mat-raised-button style="margin-left: 1%;" (click)="deleteitem()">Remove</button>
+
+    <button mat-raised-button (click)="openBottomSheet()">Buy</button>
+</ng-template> -->
 </div>

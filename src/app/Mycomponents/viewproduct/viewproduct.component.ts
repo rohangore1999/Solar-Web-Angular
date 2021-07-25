@@ -6,6 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 import datas from '../../db.json'
 import { ShippingAddressComponent } from '../shipping-address/shipping-address.component';
 import { AuthService } from 'src/app/Services/auth.service';
+import { AddtoCartComponent } from '../addto-cart/addto-cart.component';
 
 
 
@@ -62,7 +63,7 @@ export class ViewproductComponent implements OnInit {
   }
 
   openBottomSheet() {
-    this.bottomSheet.open(ShippingAddressComponent)
+    this.bottomSheet.open(AddtoCartComponent)
   }
 
   openAddToCartSheet(){
