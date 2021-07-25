@@ -21,6 +21,7 @@ export class AppComponent {
     // Stackblitz. If you want to provide the icon from a URL, you can use:
     // `iconRegistry.addSvgIcon('thumbs-up', sanitizer.bypassSecurityTrustResourceUrl('icon.svg'));`
     iconRegistry.addSvgIconLiteral('whatsapp', sanitizer.bypassSecurityTrustHtml(THUMBUP_ICON));
+
   }
 
   @Input() Fil: string

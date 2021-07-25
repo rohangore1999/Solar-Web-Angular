@@ -1,11 +1,11 @@
 <!-- Importing Navbar -->
-<app-navbar></app-navbar>
+<!-- <app-navbar></app-navbar> -->
 
 <div class="container">
     <p>My Items:-</p>
 
     <ul>
-        <li *ngFor="let i of cartitems">{{i.productName}}</li>
+        <li *ngFor="let i of cartitems">{{i.productName}} - {{i.qty}}</li>
     </ul>
     <ng-template [ngIf]="cartitems.length">
         <button mat-raised-button style="margin-left: 1%;" (click)="deleteitem()">Remove</button>

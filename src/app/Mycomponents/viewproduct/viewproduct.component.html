@@ -17,23 +17,25 @@
                             <span class="text-decoration-line-through">$45.00</span>
                             <span>$40.00</span>
                         </div>
-                        
+
                         <h1><b>Description:</b></h1>
                         <p>{{item.description}}</p>
 
                         <br>
-                        
+
                         <h1><b>Specification:</b></h1>
                         <ng-container *ngFor="let i of item.specifications">
                             <li>{{i}}</li>
                         </ng-container>
-                        
+
                         <br>
 
                         <div class="d-flex">
                             <button mat-raised-button (click)="openBottomSheet()">Buy</button>
-                            <button mat-raised-button style="margin-left: 1%;" (click)="addtocart(item)">Add to Cart</button>
+                            <button mat-raised-button style="margin-left: 1%;" (click)="addtocart(item)" (click)="openAddToCartSheet()">Add to Cart</button>
                         </div>
+
+                    
 
                     </div>
                 </div>

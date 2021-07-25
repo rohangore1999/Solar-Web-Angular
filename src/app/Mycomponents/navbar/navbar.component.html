@@ -50,7 +50,8 @@
 
         <!-- <a class="py-2 text-dark text-decoration-none hover-underline-animation" [routerLinkActive]="['hover-underline-animation']" routerLink="/more-about-solar">MORE ABOUT SOLAR</a> -->
 
-        <a class="py-2 mx-2 text-dark text-decoration-none hover-underline-animation" [routerLinkActive]="['hover-underline-animation']" routerLink="/addtocart">MY CART</a>
+        
+        <a class="py-2 text-dark text-decoration-none hover-underline-animation" [routerLinkActive]="['hover-underline-animation']" (click)="openAddToCartSheet()">MY CART <span class="py-2" *ngIf="this.datasub_len > 0" matBadge="{{this.datasub_len}}"></span></a>
       </nav>
     </div>
   </header>

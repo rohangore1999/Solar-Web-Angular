@@ -1,6 +1,6 @@
 // filterSelection('all');
 function filterSelection(c) {
-    console.log(c)
+    // console.log(c)
     var x, i;
     x = document.getElementsByClassName("column");
     if (c == "all") c = "";
@@ -33,7 +33,7 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current button (highlight it)
     var btnContainer = document.getElementsByClassName("myBtnContainer");
-    console.log(btnContainer);
+    // console.log(btnContainer);
     // var btns = btnContainer.getElementsByTagName("button");
     // for (var i = 0; i < btns.length; i++) {
     //   btns[i].addEventListener("click", function () {

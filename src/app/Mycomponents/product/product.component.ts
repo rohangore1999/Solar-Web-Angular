@@ -45,7 +45,7 @@ export class ProductComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(this.btnshow)
+    // console.log(this.btnshow)
   }
 
   tabIndex = 0;

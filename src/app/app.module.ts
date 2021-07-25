@@ -22,6 +22,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
 import { ShippingAddressComponent } from './Mycomponents/shipping-address/shipping-address.component';
 import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatBadgeModule} from '@angular/material/badge';
 
 @NgModule({
   declarations: [
@@ -50,7 +52,9 @@ import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.compone
     HttpClientModule,
     MatInputModule,
     ReactiveFormsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatSidenavModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
