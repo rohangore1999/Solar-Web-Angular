@@ -67,8 +67,6 @@ export class NavbarComponent implements OnInit {
       // it will send updated  data after remove
       this.auth.changeDataSub(this.localItem.length)
     })
-    
-
       
   }
 
@@ -93,7 +91,7 @@ export class NavbarComponent implements OnInit {
     // if the product already exit; then increase the quantity
     for (let i in this.cartitems) {
       if (this.cartitems[i].productName === item.title) {
-        console.log("INCREASE QUANTITY")
+        console.log("INCREASE QUANTITY ++")
         this.cartitems[i].qty++
 
         localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
