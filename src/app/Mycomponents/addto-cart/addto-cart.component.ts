@@ -5,9 +5,11 @@ import { MysheetComponent } from '../mysheet/mysheet.component';
 import { ShippingAddressComponent } from '../shipping-address/shipping-address.component';
 
 export interface data {
+  id: number;
   title: string;
   price: string;
   qty: number;
+  category: string;
 }
 
 @Component({
@@ -35,7 +37,7 @@ export class AddtoCartComponent implements OnInit {
 
   ngOnInit(): void {
     this.auth.getMsg().subscribe((item: data) => {
-      console.log(item)
+      console.log(item.category)
       this.addProductToCart(item)
     })
   }
@@ -62,9 +64,11 @@ export class AddtoCartComponent implements OnInit {
 
       console.log("PUSH")
       this.cartitems.push({
+        id: item.id,
         productName: item.title,
         price: item.price,
         qty: 1,
+        category: item.category
       })
 
       localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
@@ -123,5 +127,50 @@ export class AddtoCartComponent implements OnInit {
     this.bottomSheet.open(ShippingAddressComponent)
   }
 
+  dec_qty(i: number) {
+    for (let ci in this.cartitems) {
+      if (this.cartitems[ci].id == i) {
+        if (this.cartitems[ci].qty-- <= 0){
+          console.log("less than 0")
+          this.cartitems[ci].qty =0
+          localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
+        }
+        // updating local storage
+        localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
+      }
 
+    }
+  }
+
+  inc_qty(i: number) {
+    console.log(i)
+    for (let ci in this.cartitems) {
+      if (this.cartitems[ci].id == i) {
+        this.cartitems[ci].qty++
+        // updating local storage
+        localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
+      }
+
+    }
+  }
+
+  remove_itm(i: number) {
+    for (let ci in this.cartitems) {
+      var idx = this.cartitems.indexOf(i)
+      if (idx > -1) {
+        this.cartitems.splice(idx, 1);
+        localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
+
+        // getting the data
+        this.localItem = localStorage.getItem("cartitem");
+
+        // parsing localstorage data
+        this.localItem = JSON.parse(this.localItem)
+
+        this.cart_length = this.localItem.length
+        this.auth.changeDataSub(this.cart_length)
+      }
+
+    }
+  }
 }

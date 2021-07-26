@@ -10,6 +10,8 @@ export interface data {
   title: string;
   price: string;
   qty: number;
+  id:number;
+  category: string;
 }
 
 @Component({
@@ -60,7 +62,8 @@ export class NavbarComponent implements OnInit {
     // As Nav bar is loading for all pages. When it is loaded as first time it will ask local storage for exisitng data
     // After refresh click on directly add product it was not updating. So we get items from serive
     this.auth.getMsg().subscribe((item: data) => {
-      console.log(item)
+      console.log("item id")
+      console.log(item.id)
       
       // it will update the localstorage with the item which service send so that to load without loading the MyCART page
       this.addProductToCart(item)
@@ -112,9 +115,11 @@ export class NavbarComponent implements OnInit {
 
       console.log("PUSH")
       this.cartitems.push({
+        id:item.id,
         productName: item.title,
         price: item.price,
         qty: 1,
+        category:item.category
       })
 
       localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
