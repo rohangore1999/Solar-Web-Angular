@@ -130,9 +130,11 @@ export class AddtoCartComponent implements OnInit {
   dec_qty(i: number) {
     for (let ci in this.cartitems) {
       if (this.cartitems[ci].id == i) {
-        if (this.cartitems[ci].qty-- <= 0){
+        if (this.cartitems[ci].qty-- <= 1){
           console.log("less than 0")
-          this.cartitems[ci].qty =0
+          this.cartitems[ci].qty = 0
+          this.remove_itm(this.cartitems[ci])
+
           localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
         }
         // updating local storage
