@@ -51,5 +51,11 @@
   .carousel-item {
     height: auto;
   }
+  
 }
 
+@media only screen and (min-width: 375px) and (max-width: 380px) {
+#carouselExampleFade {
+  height: 200px;
+}
+}
