@@ -17,6 +17,7 @@ export class ShippingAddressComponent implements OnInit {
   state: string;
   zip: string;
   phone: string;
+  localItem: string;
 
   constructor(private bottomSheet: MatBottomSheet, private auth: AuthService) { }
 
@@ -28,6 +29,15 @@ export class ShippingAddressComponent implements OnInit {
   }
 
   onSubmit() {
+    // loading local storage data
+    // getting data from local storage
+    this.localItem = localStorage.getItem("cartitem");
+
+    // parsing localstorage data
+    this.localItem = JSON.parse(this.localItem)
+    console.log("local storage data")
+    console.log(this.localItem)
+
     console.log(this.firstname)
     console.log(this.lastname)
     console.log(this.address)
@@ -44,7 +54,8 @@ export class ShippingAddressComponent implements OnInit {
         "address": this.address,
         "state": this.state,
         "zip": this.zip,
-        "phone":this.phone
+        "phone":this.phone,
+        "localstorage":this.localItem
       }).subscribe()
   }
 

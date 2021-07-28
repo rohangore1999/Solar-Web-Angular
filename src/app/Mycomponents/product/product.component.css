@@ -275,6 +275,25 @@ padding: 2px 16px;
     }
 }
 
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .mat-button-toggle-group {
+        margin-left: -9%;
+        width: 315px;
+        height: 31px;
+    }
+
+    .btn {
+        font-size: 10px;
+        margin-left: -1%;
+        margin-top: -5px;
+    }
+
+    .mat-button-toggle-button {
+        margin-left: -4%;
+    }
+}
+
+
 /* Media Query End  */
 
 
