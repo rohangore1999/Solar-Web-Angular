@@ -75,7 +75,7 @@
                 <ng-template [ngIf]="this.firstname && this.lastname && this.email && this.address && this.state && this.zip && this.phone">
                     <div class="col-12">
                         <button mat-raised-button color="primary" class="btn btn-primary btn-lg"
-                            (click)="openBottomSheet()">Submit</button>
+                            (click)="openBottomSheet()" (click)="openSnackBar('Pay through QR code or UPI id', 'OK')">Submit</button>
                     </div>
                 </ng-template>
             </div>

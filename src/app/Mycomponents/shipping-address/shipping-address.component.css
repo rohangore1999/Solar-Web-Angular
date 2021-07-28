@@ -10,3 +10,15 @@ button{
         width: 22%;
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    button{
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 380px) {
+    button{
+        width: 100px;
+    }
+} 
