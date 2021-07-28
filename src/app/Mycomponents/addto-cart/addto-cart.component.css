@@ -182,4 +182,7 @@ a:hover {
         width: 100%;
     }
 
+    .text-muted{
+        margin-right: -32%;
+    }
 }

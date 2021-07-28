@@ -7,7 +7,7 @@ import { ShippingAddressComponent } from '../shipping-address/shipping-address.c
 export interface data {
   id: number;
   title: string;
-  price: string;
+  price: number;
   qty: number;
   category: string;
 }
@@ -23,6 +23,7 @@ export class AddtoCartComponent implements OnInit {
   len: number;
   cart_length
   qty = 0;
+  cartTotal = 0;
 
   constructor(private auth: AuthService, private bottomSheet: MatBottomSheet) {
     this.localItem = localStorage.getItem("cartitem");
@@ -40,6 +41,11 @@ export class AddtoCartComponent implements OnInit {
       console.log(item.category)
       this.addProductToCart(item)
     })
+
+    this.cartitems.forEach(item => {
+      this.cartTotal += (item.qty * item.price)
+    })
+    
   }
 
   addProductToCart(item: data) {
@@ -78,6 +84,9 @@ export class AddtoCartComponent implements OnInit {
   }
 
   deleteitem() {
+    // reseting cartTotal 
+    this.cartTotal = 0;
+
     if (this.cartitems[0].qty < 2) {
       console.log("quantity equal to 1!!")
       this.cartitems.splice(0, 1);
@@ -87,11 +96,16 @@ export class AddtoCartComponent implements OnInit {
       // getting data from local storage
       this.localItem = localStorage.getItem("cartitem");
 
-      // parsing localstorage data
+      // parsing localstorage data to an array
       this.localItem = JSON.parse(this.localItem)
 
       this.cart_length = this.localItem.length
       this.auth.changeDataSub(this.cart_length)
+
+      // Making CartTotal
+      this.cartitems.forEach(item => {
+        this.cartTotal -= (item.qty * item.price)
+      })
     }
 
 
@@ -109,6 +123,10 @@ export class AddtoCartComponent implements OnInit {
 
       this.cart_length = this.localItem.length
       this.auth.changeDataSub(this.cart_length)
+
+      this.cartitems.forEach(item => {
+        this.cartTotal += (item.qty * item.price)
+      })
     }
 
     // updating local storage
@@ -128,6 +146,9 @@ export class AddtoCartComponent implements OnInit {
   }
 
   dec_qty(i: number) {
+    // reseting cartTotal 
+    this.cartTotal = 0;
+
     for (let ci in this.cartitems) {
       if (this.cartitems[ci].id == i) {
         if (this.cartitems[ci].qty-- <= 1){
@@ -136,15 +157,25 @@ export class AddtoCartComponent implements OnInit {
           this.remove_itm(this.cartitems[ci])
 
           localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
+          
+          this.cartTotal = 0;
         }
         // updating local storage
         localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
       }
 
     }
+
+    // Making CartTotal
+    this.cartitems.forEach(items => {
+      this.cartTotal = (items.qty * items.price) - this.cartTotal
+    })
   }
 
   inc_qty(i: number) {
+    // reseting cartTotal 
+    this.cartTotal = 0;
+
     console.log(i)
     for (let ci in this.cartitems) {
       if (this.cartitems[ci].id == i) {
@@ -154,9 +185,17 @@ export class AddtoCartComponent implements OnInit {
       }
 
     }
+
+    // Making CartTotal
+    this.cartitems.forEach(items => {
+      this.cartTotal += (items.qty * items.price)
+    })
   }
 
   remove_itm(i: number) {
+    // reseting cartTotal 
+    this.cartTotal = 0;
+
     for (let ci in this.cartitems) {
       var idx = this.cartitems.indexOf(i)
       if (idx > -1) {
@@ -172,6 +211,11 @@ export class AddtoCartComponent implements OnInit {
         this.cart_length = this.localItem.length
         this.auth.changeDataSub(this.cart_length)
       }
+
+      // Making CartTotal
+    this.cartitems.forEach(items => {
+      this.cartTotal -= (items.qty * items.price)
+    })
 
     }
   }

@@ -30,7 +30,7 @@
             "Maximum System Voltage (VDC)- 600",
             "Module Efficiency ŋ (%) – >12%"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -51,7 +51,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -72,7 +72,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -93,7 +93,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -114,7 +114,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -135,7 +135,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -156,7 +156,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -177,7 +177,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -193,7 +193,7 @@
             "Free Replacement (Months) – 0 – 36",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -209,7 +209,7 @@
             "Free Replacement (Months) – 0 – 36",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -225,7 +225,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -241,7 +241,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -258,7 +258,7 @@
             "Pro Rata Warranty (Months) – 37 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -274,7 +274,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -291,7 +291,7 @@
             "Pro Rata Warranty (Months) – 37 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -307,7 +307,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -323,7 +323,7 @@
             "Dimensions (LxWxH) – 295 x 330 x 170 mm",
             "Net Weight (Kg) – 10"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -339,7 +339,7 @@
             "Dimensions (LxWxH) – 363 x 398 x 251 mm",
             "Net Weight (Kg) – 15"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -355,7 +355,7 @@
             "Dimensions (LxWxH) – 365 x 400 x 250 mm",
             "Net Weight (Kg) – 16.5"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -371,7 +371,7 @@
             "Dimensions (LxWxH) – 370 x 400 x 320 mm",
             "Net Weight (Kg) – 28.97"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -387,7 +387,7 @@
             "Dimensions (LxWxH) – 370 x 510 x 550 mm",
             "Net Weight (Kg) – 43.79"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -405,7 +405,7 @@
             "Technology – PWM",
             "SCC Rating – 70 A"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -421,7 +421,7 @@
             "Dimensions (LxWxH) – 370 x 530 x 620 mm",
             "Net Weight (Kg) – 64.57"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     },
     {
@@ -437,7 +437,7 @@
             "Dimensions (LxWxH) – 370 x 530 x 620 mm",
             "Net Weight (Kg) – 67.28"
         ],
-        "price": "$400",
+        "price": 400,
         "category": "Pannels"
     }
 ]

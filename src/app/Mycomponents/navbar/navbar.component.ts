@@ -8,7 +8,7 @@ declare const show_all: any
 
 export interface data {
   title: string;
-  price: string;
+  price: number;
   qty: number;
   id:number;
   category: string;
@@ -26,6 +26,7 @@ export class NavbarComponent implements OnInit {
   cartitems=[];
   cart_len;
   datasub_len:number
+  cartTotal = 0;
 
   cart_length = 1;
 
@@ -76,6 +77,10 @@ export class NavbarComponent implements OnInit {
 
       // it will send updated  data after remove
       this.auth.changeDataSub(this.localItem.length)
+    })
+
+    this.cartitems.forEach(item => {
+      this.cartTotal += (item.qty * item.price)
     })
       
   }
