@@ -77,10 +77,11 @@ export class NavbarComponent implements OnInit {
 
       // it will send updated  data after remove
       this.auth.changeDataSub(this.localItem.length)
-    })
 
-    this.cartitems.forEach(item => {
-      this.cartTotal += (item.qty * item.price)
+      this.cartitems.forEach(item => {
+        this.cartTotal += (item.qty * item.price)
+      })
+
     })
       
   }

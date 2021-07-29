@@ -5,24 +5,19 @@
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/assets/prod-imgs/solar-panel-4716640_1280.jpg"
-        class="d-block w-100" alt="...">
+      <img src="/assets/prod-imgs/solar-panel-4716640_1280.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/assets/prod-imgs/photovoltaic-system-2742302-min.jpg"
-        class="d-block w-100" alt="...">
+      <img src="/assets/prod-imgs/photovoltaic-system-2742302-min.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/assets/prod-imgs/solarpark-1288842_1280.jpg"
-        class="d-block w-100" alt="...">
+      <img src="/assets/prod-imgs/solarpark-1288842_1280.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/assets/prod-imgs/1663667.jpg"
-        class="d-block w-100" alt="...">
+      <img src="/assets/prod-imgs/1663667.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="/assets/prod-imgs/solar-2666770-min.jpg"
-        class="d-block w-100" alt="...">
+      <img src="/assets/prod-imgs/solar-2666770-min.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -194,10 +189,10 @@
     </mat-form-field>
 
     <!-- <button type="submit" mat-raised-button color="primary">Submit</button> -->
-    <ng-template
-      [ngIf]="this.firstname && this.lastname && this.email && this.address && this.city && this.state && this.postalcode && this.comment && this.phone && !emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
-      <button mat-raised-button color="primary" (click)="openSnackBar('Thanks for your Feedback', 'OK')">Send</button>
-    </ng-template>
+
+    <button mat-raised-button type=reset color="primary" (click)="openSnackBar('Thanks for your Feedback', 'OK')"
+      [disabled]="!firstname || !lastname || !email || !address || !city || !state || !postalcode || !comment || !phone || emailFormControl.hasError('email') || emailFormControl.hasError('required')">Send</button>
+
     <br><br><br>
   </form>
 

@@ -38,7 +38,6 @@ export class AddtoCartComponent implements OnInit {
 
   ngOnInit(): void {
     this.auth.getMsg().subscribe((item: data) => {
-      console.log(item.category)
       this.addProductToCart(item)
     })
 
@@ -83,64 +82,6 @@ export class AddtoCartComponent implements OnInit {
 
   }
 
-  deleteitem() {
-    // reseting cartTotal 
-    this.cartTotal = 0;
-
-    if (this.cartitems[0].qty < 2) {
-      console.log("quantity equal to 1!!")
-      this.cartitems.splice(0, 1);
-
-      // updating local storage
-      localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
-      // getting data from local storage
-      this.localItem = localStorage.getItem("cartitem");
-
-      // parsing localstorage data to an array
-      this.localItem = JSON.parse(this.localItem)
-
-      this.cart_length = this.localItem.length
-      this.auth.changeDataSub(this.cart_length)
-
-      // Making CartTotal
-      this.cartitems.forEach(item => {
-        this.cartTotal -= (item.qty * item.price)
-      })
-    }
-
-
-    if (this.cartitems[0].qty > 1) {
-      console.log("quantity greater!!")
-      this.cartitems[0].qty--
-
-      // updating local storage
-      localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
-      // getting data from local storage
-      this.localItem = localStorage.getItem("cartitem");
-
-      // parsing localstorage data
-      this.localItem = JSON.parse(this.localItem)
-
-      this.cart_length = this.localItem.length
-      this.auth.changeDataSub(this.cart_length)
-
-      this.cartitems.forEach(item => {
-        this.cartTotal += (item.qty * item.price)
-      })
-    }
-
-    // updating local storage
-    localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
-    // getting data from local storage
-    this.localItem = localStorage.getItem("cartitem");
-
-    // parsing localstorage data
-    this.localItem = JSON.parse(this.localItem)
-
-    this.cart_length = this.localItem.length
-    this.auth.changeDataSub(this.cart_length)
-  }
-
   openBottomSheet() {
     this.bottomSheet.open(ShippingAddressComponent)
   }
@@ -148,6 +89,15 @@ export class AddtoCartComponent implements OnInit {
   dec_qty(i: number) {
     // reseting cartTotal 
     this.cartTotal = 0;
+    console.log("decr qty of")
+    console.log(i)
+    console.log("cart total before dec: ", this.cartTotal)
+
+    // getting data from local storage
+    this.localItem = localStorage.getItem("cartitem");
+     
+    // parsing localstorage data
+    this.cartitems = JSON.parse(this.localItem);
 
     for (let ci in this.cartitems) {
       if (this.cartitems[ci].id == i) {
@@ -158,7 +108,17 @@ export class AddtoCartComponent implements OnInit {
 
           localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
           
-          this.cartTotal = 0;
+          // getting data from local storage
+          this.localItem = localStorage.getItem("cartitem");
+          
+          // parsing localstorage data
+          this.cartitems = JSON.parse(this.localItem);
+
+          // Making CartTotal
+          for(let ct in this.cartitems){
+            console.log("CTs:",this.cartitems[ct])
+            this.cartTotal = (this.cartitems[ct].price * this.cartitems[ct].qty) + this.cartTotal
+          }
         }
         // updating local storage
         localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
@@ -166,16 +126,29 @@ export class AddtoCartComponent implements OnInit {
 
     }
 
+    // getting data from local storage
+    this.localItem = localStorage.getItem("cartitem");
+          
+    // parsing localstorage data
+    this.cartitems = JSON.parse(this.localItem);
+
     // Making CartTotal
-    this.cartitems.forEach(items => {
-      this.cartTotal = (items.qty * items.price) - this.cartTotal
-    })
+    for(let ct in this.cartitems){
+      console.log("CTs:",this.cartitems[ct])
+      this.cartTotal = (this.cartitems[ct].price * this.cartitems[ct].qty) + this.cartTotal
+    }
+    // // Making CartTotal
+    // this.cartitems.forEach(items => {
+    //   this.cartTotal = (items.qty * items.price) - this.cartTotal
+    // })
+    // console.log("cart total after dec: ", this.cartTotal)
   }
 
   inc_qty(i: number) {
     // reseting cartTotal 
     this.cartTotal = 0;
 
+    console.log("incr qty of: ")
     console.log(i)
     for (let ci in this.cartitems) {
       if (this.cartitems[ci].id == i) {

@@ -25,11 +25,15 @@
 
                 <div class="col-12">
                     <label for="email" class="form-label">Email* </label>
-                    <input type="email" class="form-control" id="email" placeholder="you@example.com" name="email"
-                        [(ngModel)]="email" required>
-                    <div class="invalid-feedback">
-                        Please enter a valid email address for shipping updates.
-                    </div>
+                    <input type="email" [formControl]="emailFormControl" class="form-control" id="email"
+                        placeholder="you@example.com" name="email" [(ngModel)]="email" required>
+                    <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                        Please enter a valid email address
+                    </mat-error>
+                    <mat-error *ngIf="emailFormControl.hasError('required')">
+                        Email is <strong>required</strong>
+                    </mat-error>
+
                 </div>
 
                 <div class="col-12">
@@ -64,20 +68,20 @@
 
                 <div class="col-md-3">
                     <label for="phone" class="form-label">Phone No*</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="" name="phone"
-                        [(ngModel)]="phone" required>
+                    <input type="tel" class="form-control" id="phone" placeholder="" name="phone" [(ngModel)]="phone"
+                        required>
                     <div class="invalid-feedback">
                         Zip code required.
                     </div>
                 </div>
-                
 
-                <ng-template [ngIf]="this.firstname && this.lastname && this.email && this.address && this.state && this.zip && this.phone">
-                    <div class="col-12">
-                        <button mat-raised-button color="primary" class="btn btn-primary btn-lg"
-                            (click)="openBottomSheet()" (click)="openSnackBar('Pay through QR code or UPI id', 'OK')">Submit</button>
-                    </div>
-                </ng-template>
+
+
+                <div class="col-12">
+                    <button mat-raised-button type=reset color="primary" class="btn btn-primary btn-lg"
+                        (click)="openBottomSheet()" (click)="openSnackBar('Pay through QR code or UPI id', 'OK')"
+                        [disabled]="!firstname || !lastname || !email || !address || !state || !zip || !phone || emailFormControl.hasError('email') || emailFormControl.hasError('required')">Submit</button>
+                </div>
             </div>
         </form>
     </div>

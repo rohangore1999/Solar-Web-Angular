@@ -4,6 +4,7 @@ import { AuthService } from 'src/app/Services/auth.service';
 import { MysheetComponent } from '../mysheet/mysheet.component';
 import { AddtoCartComponent } from '../addto-cart/addto-cart.component';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-shipping-address',
@@ -19,6 +20,8 @@ export class ShippingAddressComponent implements OnInit {
   zip: string;
   phone: string;
   localItem: string;
+
+  emailFormControl = new FormControl('', [Validators.required, Validators.email]);
 
   constructor(private bottomSheet: MatBottomSheet, private auth: AuthService, private _snackBar: MatSnackBar) { }
 
