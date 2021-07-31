@@ -1,7 +1,8 @@
-/* .rounded-5{
+ .rounded-5{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5%;
 }
+/*
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -72,6 +73,26 @@
 
   background-position: center;
   background-repeat: no-repeat;
+}
+
+
+.example-small-box, .example-large-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.example-small-box {
+  height: 100px;
+  width: 100px;
+}
+
+.example-large-box {
+  height: 300px;
+  width: 300px;
 }
 
 @media (max-width:425px) {

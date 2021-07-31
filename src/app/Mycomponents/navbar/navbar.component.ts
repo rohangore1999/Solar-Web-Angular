@@ -10,7 +10,7 @@ export interface data {
   title: string;
   price: number;
   qty: number;
-  id:number;
+  id: number;
   category: string;
 }
 
@@ -23,9 +23,9 @@ export class NavbarComponent implements OnInit {
   @Input() Fil: string
   item: any;
   localItem: string;
-  cartitems=[];
+  cartitems = [];
   cart_len;
-  datasub_len:number
+  datasub_len: number
   cartTotal = 0;
 
   cart_length = 1;
@@ -39,7 +39,7 @@ export class NavbarComponent implements OnInit {
     else {
       this.cartitems = JSON.parse(this.localItem);
     }
-   }
+  }
 
   ngOnInit(): void {
     localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
@@ -65,25 +65,31 @@ export class NavbarComponent implements OnInit {
     this.auth.getMsg().subscribe((item: data) => {
       console.log("item id")
       console.log(item.id)
-      
+
       // it will update the localstorage with the item which service send so that to load without loading the MyCART page
       this.addProductToCart(item)
 
       // getting data from local storage
       this.localItem = localStorage.getItem("cartitem");
-     
+
       // parsing localstorage data
-      this.localItem = JSON.parse(this.localItem);
+      this.cartitems = JSON.parse(this.localItem);
 
       // it will send updated  data after remove
       this.auth.changeDataSub(this.localItem.length)
 
-      this.cartitems.forEach(item => {
-        this.cartTotal += (item.qty * item.price)
-      })
+      // this.cartitems.forEach(item => {
+      //   this.cartTotal += (item.qty * item.price)
+      // })
+
+      // Making CartTotal
+      for (let ct in this.cartitems) {
+        console.log("CTs:", this.cartitems[ct])
+        this.cartTotal = (this.cartitems[ct].price * this.cartitems[ct].qty) + this.cartTotal
+      }
 
     })
-      
+
   }
 
   filterSelection1(fil) {
@@ -100,7 +106,7 @@ export class NavbarComponent implements OnInit {
 
     // getting data from local storage
     this.localItem = localStorage.getItem("cartitem");
-     
+
     // parsing localstorage data
     this.localItem = JSON.parse(this.localItem);
 
@@ -121,16 +127,16 @@ export class NavbarComponent implements OnInit {
 
       console.log("PUSH")
       this.cartitems.push({
-        id:item.id,
+        id: item.id,
         productName: item.title,
         price: item.price,
         qty: 1,
-        category:item.category
+        category: item.category
       })
 
       localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
     }
-    
+
 
   }
 

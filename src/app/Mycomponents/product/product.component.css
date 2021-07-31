@@ -123,6 +123,10 @@ padding: 2px 16px;
     margin-top: -12%;
 }
 
+.bg-light{
+    background-color: #ffffff!important;
+}
+
 /* MEDIA QUERY */
 /* Media Query For to MAX 475px */
 @media (max-width: 475px) {

@@ -26,6 +26,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatBadgeModule } from '@angular/material/badge';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './Mycomponents/footer/footer.component';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { FooterComponent } from './Mycomponents/footer/footer.component';
     MatSnackBarModule,
     MatSidenavModule,
     MatBadgeModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -295,7 +295,6 @@
         "price": 400,
         "category": "Pannels"
     },
-    
     {
         "id": 16,
         "small_title": "LFS SO1150",
@@ -425,5 +424,106 @@
         ],
         "price": 400,
         "category": "Inverter"
+    },
+    {
+        "id": 24,
+        "small_title": "Solar MC4 T Branch Connector(LQ-1T5)",
+        "title": "MC4 Connectors",
+        "description": "",
+        "specifications": [
+            "Rated Current – 50A",
+            "Rated Voltage (Vdc) – 1500V",
+            "Ambient Temperature - -40°C to +85°C",
+            "Degree of Protection – IP67",
+            "Contact Resistance –   ≤0.5mΩ",
+            "Contact Material – Copper with Tin Plated",
+            "Insulation Material - PPO",
+            "Locking System - Snap-in",
+            "Flame Class - UL94-HB/ UL94-V0",
+            "Cable size - 2.5 to 6mm2",
+            "Protection Class - 2",
+            "Application Class - Class A",
+            "Looking system plug connectors - Snap- in (Nur/only MC4)"
+        ],
+        "price": "$400",
+        "category": "Others"
+    },
+    {
+        "id": 25,
+        "small_title": "",
+        "title": "Solar Pannel Stand",
+        "description": "You can install a solar panel from 100 watts ~ 440 watts of any brand and any make. The portable solar panel stand is made of galvanized iron, the rust-proof solar panel stand life is more than 25 years.",
+        "specifications": [
+            "Material - Galvanized Iron",
+            "Angle -15° and  20°(Depends upon Location)",
+            "Dimensions - front leg height - 50 cm",
+            "back leg height - 83 cm",
+            "channel length - 202 cm",
+            "Weight - 16 kg"
+        ],
+        "price": "$400",
+        "category": "Others"
+    },
+    {
+        "id": 26,
+        "small_title": "LFS SO10000",
+        "title": "COMBOS",
+        "description": "Livfast Solar Hybrid PCUs are high capacity, high efficiency solar UPS that runs both on solar & utility (grid) power supply. It has an in-build solar charge controller which extracts maximum power from solar modules to power your appliances & battery charging.",
+        "specifications": [
+            "System Rating – 10 KVA",
+            "Nominal Battery Voltage (Vdc) – 120V",
+            "Ouput Waveform – Pure Sine Wave",
+            "Switching Element – MOSFET",
+            "Dimensions (LxWxH) – 370 x 530 x 620 mm",
+            "Net Weight (Kg) – 67.28"
+        ],
+        "price": 400,
+        "category": "COMBOS"
+    },
+
+    {
+        "id": 27,
+        "small_title": "1.2kW Hybrid Solar System",
+        "title": "Livfast 1.2KW Combo",
+        "specifications": [
+            "Product List",
+            "Solar Inverter - LIVFAST LFTLFSSO1850 (1 nos.)",
+            "Solar Battery  - LFMLFS5150HP 150 Ah - (2 nos.)",
+            "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (2 nos.)",
+            "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
+            "Transportation Excluded"
+        ],
+        "price": "89999",
+        "category": "Combo"
+    },
+    {
+        "id": 28,
+        "small_title": "3kW Hybrid Solar System",
+        "title": "Livfast 3KW Combo",
+        "specifications": [
+            "Product List",
+            "Solar Inverter - LIVFAST LFTLFSSOR3500 (1 nos.)",
+            "Solar Battery  - LFMLFS5150HP 150 Ah - (6 nos.)",
+            "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (7 nos.)",
+            "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
+            "Transportation Excluded"
+        ],
+        "price": "",
+        "category": "Combo"
+    },
+    {
+        "id": 29,
+        "small_title": "5kW Hybrid Solar System",
+        "title": "Livfast 5KW Combo",
+        "specifications": [
+            "Product List",
+            "Solar Inverter - LIVFAST LFTLFSSOR5048 (1 nos.)",
+            "Solar Battery  - LFMLFS5150HP 150 Ah - (10 nos.)",
+            "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (12 nos.)",
+            "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
+            "Transportation Excluded"
+        ],
+        "price": "",
+        "category": "Combo"
     }
 ]

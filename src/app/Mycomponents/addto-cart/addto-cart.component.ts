@@ -44,7 +44,7 @@ export class AddtoCartComponent implements OnInit {
     this.cartitems.forEach(item => {
       this.cartTotal += (item.qty * item.price)
     })
-    
+
   }
 
   addProductToCart(item: data) {
@@ -88,35 +88,37 @@ export class AddtoCartComponent implements OnInit {
 
   dec_qty(i: number) {
     // reseting cartTotal 
-    this.cartTotal = 0;
+    // this.cartTotal = 0;
     console.log("decr qty of")
     console.log(i)
     console.log("cart total before dec: ", this.cartTotal)
 
     // getting data from local storage
     this.localItem = localStorage.getItem("cartitem");
-     
+
     // parsing localstorage data
     this.cartitems = JSON.parse(this.localItem);
 
     for (let ci in this.cartitems) {
+
       if (this.cartitems[ci].id == i) {
-        if (this.cartitems[ci].qty-- <= 1){
+
+        if (this.cartitems[ci].qty-- <= 1) {
           console.log("less than 0")
-          this.cartitems[ci].qty = 0
+          // this.cartitems[ci].qty = 0
           this.remove_itm(this.cartitems[ci])
 
           localStorage.setItem("cartitem", JSON.stringify(this.cartitems));
-          
+
           // getting data from local storage
           this.localItem = localStorage.getItem("cartitem");
-          
+
           // parsing localstorage data
           this.cartitems = JSON.parse(this.localItem);
 
           // Making CartTotal
-          for(let ct in this.cartitems){
-            console.log("CTs:",this.cartitems[ct])
+          for (let ct in this.cartitems) {
+            console.log("CTs quant less than 1:", this.cartitems[ct])
             this.cartTotal = (this.cartitems[ct].price * this.cartitems[ct].qty) + this.cartTotal
           }
         }
@@ -128,15 +130,22 @@ export class AddtoCartComponent implements OnInit {
 
     // getting data from local storage
     this.localItem = localStorage.getItem("cartitem");
-          
+
     // parsing localstorage data
     this.cartitems = JSON.parse(this.localItem);
 
+    console.log("CART ITEMS: ", this.cartitems)
     // Making CartTotal
-    for(let ct in this.cartitems){
-      console.log("CTs:",this.cartitems[ct])
+    this.cartTotal = 0
+    for (let ct in this.cartitems) {
+      console.log("CTs:", this.cartitems[ct])
       this.cartTotal = (this.cartitems[ct].price * this.cartitems[ct].qty) + this.cartTotal
+      console.log("CARTTOTAL: ",this.cartTotal)
     }
+     
+    // getting data from local storage
+    this.localItem = localStorage.getItem("cartitem");
+
     // // Making CartTotal
     // this.cartitems.forEach(items => {
     //   this.cartTotal = (items.qty * items.price) - this.cartTotal
@@ -186,9 +195,9 @@ export class AddtoCartComponent implements OnInit {
       }
 
       // Making CartTotal
-    this.cartitems.forEach(items => {
-      this.cartTotal -= (items.qty * items.price)
-    })
+      this.cartitems.forEach(items => {
+        this.cartTotal -= (items.qty * items.price)
+      })
 
     }
   }
