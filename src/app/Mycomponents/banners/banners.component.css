@@ -47,6 +47,51 @@
   height: 817px;
 }
 
+.showcase{
+  overflow: hidden;
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+  /*
+  *
+  * HERE IS THE SECRET
+  * MAKE SURE TO ALWAYS USE A LINEAR-GRADIENT VALUE
+  * THE FIRST ONE WILL BE FOR A BLACK OPACITY
+  * THE SECOND ONE (COMMENTED) WILL BE FOR A WHITE OPACITY
+  *
+  */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%,rgba(0, 0, 0, 0.7) 100%) , url('/assets/prod-imgs/pexels-kelly-lacy-4320481.jpg');
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 589px){
+  .boom-text {
+  font-size: 0.7em;
+  }
+}
+
+@media (max-width: 419px){
+  .boom-text {
+  font-size: 0.6em;
+  }
+}
+
+@media (max-width: 362px){
+  .boom-text {
+  font-size: 0.5em;
+  }
+}
+
 @media (min-width: 380px) and (max-width: 449px){
   .carousel-item {
     height: auto;

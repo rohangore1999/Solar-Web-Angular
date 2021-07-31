@@ -25,6 +25,7 @@ import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.compone
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatBadgeModule } from '@angular/material/badge';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FooterComponent } from './Mycomponents/footer/footer.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MysheetComponent,
     MoreAboutSolarComponent,
     ShippingAddressComponent,
-    AddtoCartComponent
+    AddtoCartComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
