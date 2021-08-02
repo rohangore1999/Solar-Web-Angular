@@ -27,6 +27,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './Mycomponents/footer/footer.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     ShippingAddressComponent,
     AddtoCartComponent,
     FooterComponent
+
   ],
   imports: [
     BrowserModule,
@@ -61,7 +63,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatSidenavModule,
     MatBadgeModule,
     FlexLayoutModule,
-    MatTabsModule
+    MatTabsModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

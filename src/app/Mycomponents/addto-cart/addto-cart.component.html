@@ -52,7 +52,7 @@
                 <div class="col text-right">&#8377; {{cartTotal}}</div>
             </div>
             <ng-template [ngIf]="this.cartitems.length > 0">
-                <button class="btn" (click)="openBottomSheet()">Check Out</button>
+                <button type=reset class="btn" (click)="openBottomSheet()">Check Out</button>
             </ng-template>
         </div>
     </div>

@@ -4,7 +4,11 @@
         <h1 class="heading">InvestEnergy</h1>
         <hr>
         <img src="assets/prod-imgs/QR_code_for_mobile_English_Wikipedia.svg" height=200 class="rounded" alt="...">
-        <p>investengery@okaxis</p>
+        <p>investengery@okaxis <a [routerLink]=""  (click)="copyText()" (click)="openSnackBar('Text copied to your clipboard', 'OK')">
+                <mat-icon matTooltip="Click to copy" svgIcon="copy_clipboard" aria-hidden="false" aria-label="Example thumbs up SVG icon"
+                    style="padding-left: 2%;"></mat-icon>
+            </a></p>
+        <!-- <button (click)="copyText()">Copy Text</button> -->
     </div>
 
 

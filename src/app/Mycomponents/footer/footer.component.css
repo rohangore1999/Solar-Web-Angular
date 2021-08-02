@@ -1,0 +1,15 @@
+.btn {
+    border-radius: 50%;
+    border: none;
+    width: 45px;
+    height: 41px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.mat-icon {
+    width: 15px;
+}
+
+.bg-warning {
+    background-color: #929292!important;
+}

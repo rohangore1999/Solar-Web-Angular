@@ -22,6 +22,7 @@ export class ShippingAddressComponent implements OnInit {
   localItem: string;
 
   emailFormControl = new FormControl('', [Validators.required, Validators.email]);
+  formName: any;
 
   constructor(private bottomSheet: MatBottomSheet, private auth: AuthService, private _snackBar: MatSnackBar) { }
 

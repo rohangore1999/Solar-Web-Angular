@@ -95,6 +95,20 @@
   width: 300px;
 }
 
+.ribbon-holder{
+  overflow: hidden;
+}
+.ribbon{
+position: absolute;
+background: rgb(226, 0, 0);
+  color: white;
+  transform: rotate(-45deg);
+  text-align: center;
+  top: 20px;
+  left: -72px;
+  width:210px;
+}
+
 @media (max-width:425px) {
   .showcase{
     background: linear-gradient(to bottom, rgba(128, 125, 125, 0.7) 0%,rgba(0, 0, 0, 0.7) 100%) , url('/assets/prod-imgs/pexels-kelly-lacy-4320481.jpg');
@@ -140,4 +154,9 @@
   #carouselExampleFade {
     height: 180px;
   }
+
+  .cards {
+    height: 300px;
+    border-radius: 6%;
   }
+}
