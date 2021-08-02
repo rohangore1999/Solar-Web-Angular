@@ -39,7 +39,6 @@ export class BannersComponent implements OnInit {
     console.log(this.postalcode)
     console.log(this.comment)
     console.log(this.phone)
-    console.log("")
     this.auth.send_post_request(
       {
         "firstname": this.firstname,
