@@ -54,7 +54,6 @@ export class BannersComponent implements OnInit {
     
     this.firstname = ' ';
     this.lastname = ' ';
-    this.email = '';
     this.address = ' ';
     this.city = ' ';
     this.state = ' ';

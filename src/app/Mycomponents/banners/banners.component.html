@@ -341,7 +341,7 @@
 
     <!-- <button type="submit" mat-raised-button color="primary">Submit</button> -->
 
-    <button mat-raised-button type=reset color="primary" (click)="openSnackBar('Thanks for your Feedback', 'OK')"
+    <button mat-raised-button type="submit" color="primary" (click)="openSnackBar('Thanks for your Feedback', 'OK')"
       [disabled]="!firstname || !lastname || !email || !address || !city || !state || !postalcode || !comment || !phone || emailFormControl.hasError('email') || emailFormControl.hasError('required')">Send</button>
 
     <br><br><br>

@@ -5,9 +5,15 @@ button{
     font-size: 15px;
 }
 
+@media (min-width: 445px){
+    button{
+        width: 20%;
+    }
+}
+
 @media (min-width: 380px) and (max-width: 449px){
     button{
-        width: 22%;
+        width: 30%;
     }
 }
 
