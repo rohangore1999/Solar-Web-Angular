@@ -45,9 +45,31 @@
                 <div class="col-md-4">
                     <label for="state" class="form-label">State*</label>
                     <select class="form-select" id="state" name="state" [(ngModel)]="state" required>
-                        <option value="" disabled selected>Choose...</option>
+                        <option value="" selected>Choose...</option>
                         <option selected>Maharashtra</option>
-                        <option>ABC</option>
+                        <option> Andhra Pradesh </option>
+                        <option>Arunachal Pradesh</option>
+                        <option> Asom (Assam)</option>
+                        <option>Bihar</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Chhattisgarh</option>
+                        <option>Uttar Pradesh
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jammu and Kashmir</option>
+                        <option>Jharkhand</option>
+                        <option>West Bengal
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttarakhand (Uttaranchal)</option>
+
                     </select>
                     <div class="invalid-feedback">
                         Please provide a valid state.
@@ -56,7 +78,7 @@
 
                 <div class="col-md-3">
                     <label for="zip" class="form-label">Zip*</label>
-                    <input type="text" class="form-control" id="zip" placeholder="Ex. 410206" name="zip"
+                    <input type="number" class="form-control" id="zip" placeholder="Ex. 410206" name="zip"
                         [(ngModel)]="zip" required>
                     <div class="invalid-feedback">
                         Zip code required.
@@ -65,7 +87,7 @@
 
                 <div class="col-md-3">
                     <label for="phone" class="form-label">Phone No*</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="" name="phone" [(ngModel)]="phone"
+                    <input type="number" class="form-control" id="phone" placeholder="" name="phone" [(ngModel)]="phone"
                         required>
                     <div class="invalid-feedback">
                         Zip code required.

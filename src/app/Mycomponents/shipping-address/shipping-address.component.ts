@@ -17,7 +17,7 @@ export class ShippingAddressComponent implements OnInit {
   address: string;
   email: string;
   state: string;
-  zip: string;
+  zip: number;
   phone: string;
   localItem: string;
 

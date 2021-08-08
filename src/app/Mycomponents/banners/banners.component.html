@@ -247,7 +247,7 @@
 
 <!-- Query Form -->
 <div class="py-5 text-center">
-  <h1>Any Query??</h1>
+  <h1>Any Queries??</h1>
 </div>
 <div class="container text-center d-flex align-items-center justify-content-center">
   <form class="example-form" (ngSubmit)="onSubmit()">
@@ -315,7 +315,7 @@
         <td>
           <mat-form-field class="example-full-width">
             <mat-label>Postal Code *</mat-label>
-            <input matInput #postalCode maxlength="6" placeholder="Ex. 410206" value="410206" name="postalcode"
+            <input matInput #postalCode type="number" maxlength="6" placeholder="Ex. 410206" value="410206" name="postalcode"
               [(ngModel)]="postalcode">
             <mat-hint align="end">{{postalCode.value.length}} / 6</mat-hint>
           </mat-form-field>
@@ -335,7 +335,7 @@
     <mat-form-field class="example-full-width">
       <mat-label>Telephone *</mat-label>
       <span matPrefix>+91 &nbsp;</span>
-      <input type="tel" matInput placeholder="123-456-7890" name="phone" [(ngModel)]="phone">
+      <input type="number" matInput placeholder="123-456-7890" name="phone" [(ngModel)]="phone">
       <mat-icon matSuffix>mode_edit</mat-icon>
     </mat-form-field>
 
