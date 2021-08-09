@@ -43,8 +43,9 @@ export class ViewproductComponent implements OnInit {
   datas: [] = datas
   localItem: string;
   cart_length;
+  btn_lnk:string
 
-  feat_chng:boolean = false;
+  feat_chng: boolean = false;
 
   private isButtonVisible = true;
 
@@ -58,15 +59,15 @@ export class ViewproductComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.params.subscribe(data => {
       this.productID = data.id;
-      console.log("DATA id",data.id);
+      console.log("DATA id", data.id);
 
-      if(this.productID > 23 && this.productID < 26){
+      if (this.productID > 23 && this.productID < 26) {
         this.feat_chng = true
-        console.log("this.feat_chng",this.feat_chng)
+        console.log("this.feat_chng", this.feat_chng)
       }
-      else{
+      else {
         this.feat_chng = false
-        console.log("this.feat_chng",this.feat_chng)
+        console.log("this.feat_chng", this.feat_chng)
       }
       // console.log(this.datas)
     })
@@ -76,14 +77,14 @@ export class ViewproductComponent implements OnInit {
     this.bottomSheet.open(AddtoCartComponent)
   }
 
-  openAddToCartSheet(){
-    
+  openAddToCartSheet() {
+
   }
 
-  addtocart(item: Item){
+  addtocart(item: Item) {
     // sennding clicked item to auth service
     this.auth.sendMsg(item)
-    
+
     // getting data from local storage
     this.localItem = localStorage.getItem("cartitem");
 
@@ -99,8 +100,14 @@ export class ViewproductComponent implements OnInit {
     this.auth.changeDataSub(this.cart_length)
   }
 
-  otherPayment(item){
-    this.auth.otherPayment(item).subscribe()
+
+  otherPayment(item) {
+    this.auth.otherPayment(item).subscribe((res: any) => {
+      console.log("Other payment response",res['data'])
+      this.btn_lnk = res['data']
+    })
+
+    
   }
 
 }
