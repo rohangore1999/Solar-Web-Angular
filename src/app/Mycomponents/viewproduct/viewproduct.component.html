@@ -32,10 +32,11 @@
 
                         <div class="d-flex">
                             <!-- <button mat-raised-button (click)="openBottomSheet()">Buy</button> -->
-                            <button mat-raised-button style="margin-left: 1%;" (click)="addtocart(item)" (click)="openBottomSheet()">Add to Cart</button>
-                        </div>
+                            <button mat-raised-button style="margin-left: 1%;" (click)="addtocart(item)"
+                                (click)="openBottomSheet()">Add to Cart</button>
 
-                    
+                            <button mat-raised-button style="margin-left: 1%;" (click)="otherPayment(item)">Other Payment</button>
+                        </div>
 
                     </div>
                 </div>
@@ -57,10 +58,17 @@
                             </mat-icon>
                         </div>
 
-                        <div>
-                            <h2>Excellent Performance in low light</h2>
-                            <p>High quality transparent glass Glossy EVA to capture maximum solar energy.</p>
+                        <div *ngIf="this.feat_chng; else elseBlock">
+                            <h2>asdasdast</h2>
+                            <p>Hsadsad.</p>
                         </div>
+
+                        <ng-template #elseBlock>
+                            <div>
+                                <h2>Excellent Performance in low light</h2>
+                                <p>High quality transparent glass Glossy EVA to capture maximum solar energy.</p>
+                            </div>
+                        </ng-template>
                     </div>
 
                     <div class="col d-flex align-items-start">

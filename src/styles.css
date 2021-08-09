@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(./assets/fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
 * {
-    font-family: "Trebuchet MS", sans-serif !important; 
+    font-family: "Montserrat" !important;
     /* Add !important to overwrite all elements */
   }
 

@@ -44,6 +44,8 @@ export class ViewproductComponent implements OnInit {
   localItem: string;
   cart_length;
 
+  feat_chng:boolean = false;
+
   private isButtonVisible = true;
 
   constructor(private activatedRoute: ActivatedRoute, private bottomSheet: MatBottomSheet, iconRegistry: MatIconRegistry, sanitizer: DomSanitizer, private auth: AuthService) {
@@ -56,8 +58,16 @@ export class ViewproductComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.params.subscribe(data => {
       this.productID = data.id;
-      // console.log(data.id);
+      console.log("DATA id",data.id);
 
+      if(this.productID > 23 && this.productID < 26){
+        this.feat_chng = true
+        console.log("this.feat_chng",this.feat_chng)
+      }
+      else{
+        this.feat_chng = false
+        console.log("this.feat_chng",this.feat_chng)
+      }
       // console.log(this.datas)
     })
   }
@@ -87,6 +97,10 @@ export class ViewproductComponent implements OnInit {
 
     // send cartlength to service [behaviorsubject]
     this.auth.changeDataSub(this.cart_length)
+  }
+
+  otherPayment(item){
+    this.auth.otherPayment(item).subscribe()
   }
 
 }

@@ -30,10 +30,11 @@ export class AuthService {
 
   // server_address = 'http://localhost:5000/api/';
   // server_address_ship = 'http://localhost:5000/api_ship/';
+  // server_address_op = 'http://localhost:5000/api_op/';
 
   server_address = 'https://helper-python.herokuapp.com/api/';
   server_address_ship = 'https://helper-python.herokuapp.com/api_ship/';
-
+  server_address_op = 'https://helper-python.herokuapp.com/api_op/';
 
   /************SENDING SHIPPING DATA TO PYTHON**********************/ 
 
@@ -45,6 +46,13 @@ export class AuthService {
   send_ship_request(data) {
     console.log(data)
     return this.http.post(this.server_address_ship, JSON.stringify(data))
+  }
+
+  // Send other Payment Request through Python
+
+  otherPayment(data){
+    console.log(data)
+    return this.http.post(this.server_address_op, JSON.stringify(data))
   }
 
   /************END SENDING SHIPPING DATA TO PYTHON**********************/
