@@ -1,0 +1,14 @@
+.parallax{
+    background: url('/assets/prod-imgs/shipping2.jpg') repeat fixed 82%;
+    background-size: cover;
+    color: aliceblue;
+    /* width: 100%; */
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+}
+
+.parallax-inner{
+    padding-top: 16%;
+    padding-bottom: 20%;
+}
