@@ -4,8 +4,10 @@ import { ProductComponent } from './Mycomponents/product/product.component'
 import { BannersComponent } from './Mycomponents/banners/banners.component'
 import { AboutComponent } from './Mycomponents/about/about.component'
 import { ViewproductComponent } from './Mycomponents/viewproduct/viewproduct.component';
-import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
 import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.component';
+import { PrivacyPolicyComponent } from './Mycomponents/privacy-policy/privacy-policy.component';
+import { TermsConditionsComponent } from './Mycomponents/terms-conditions/terms-conditions.component';
+import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingpolicy.component';
 
 
 const routes: Routes = [
@@ -13,8 +15,10 @@ const routes: Routes = [
   { path: 'product', component: ProductComponent },
   { path: 'product/viewproduct/:id', component: ViewproductComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'more-about-solar', component: MoreAboutSolarComponent },
-  { path: 'addtocart', component: AddtoCartComponent}
+  { path: 'addtocart', component: AddtoCartComponent},
+  { path: 'privacypolicy', component: PrivacyPolicyComponent},
+  { path: 'termscondition', component: TermsConditionsComponent},
+  { path: 'shippingpolicy', component: ShippingpolicyComponent}
 ];
 
 @NgModule({

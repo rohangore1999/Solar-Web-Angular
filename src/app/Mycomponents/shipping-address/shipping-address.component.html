@@ -98,7 +98,7 @@
 
                 <div class="col-12">
                     <button mat-raised-button type=submit color="primary" class="btn btn-primary btn-lg"
-                        (click)="openBottomSheet()" (click)="openSnackBar('Pay through QR code or UPI id', 'OK')"
+                        (click)="openBottomSheet()"
                         [disabled]="!firstname || !lastname || !email || !address || !state || !zip || !phone || emailFormControl.hasError('email') || emailFormControl.hasError('required')">Submit</button>
                 </div>
             </div>

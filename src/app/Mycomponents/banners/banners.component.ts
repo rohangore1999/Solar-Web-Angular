@@ -1,3 +1,4 @@
+import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit, Input } from '@angular/core';
 import { AuthService } from 'src/app/Services/auth.service';
 import { FormControl, Validators } from '@angular/forms';
@@ -7,7 +8,15 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-banners',
   templateUrl: './banners.component.html',
-  styleUrls: ['./banners.component.css']
+  styleUrls: ['./banners.component.css'],
+  animations: [
+    trigger('fade', [
+      transition('void => *', [
+        style({ opacity: 0 }),
+        animate(2000, style({ opacity: 1 }))
+      ])
+    ])
+  ]
 })
 export class BannersComponent implements OnInit {
 

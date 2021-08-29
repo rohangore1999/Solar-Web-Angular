@@ -19,7 +19,6 @@ import { MysheetComponent } from './Mycomponents/mysheet/mysheet.component';
 import { HttpClientModule } from '@angular/common/http'
 import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { MoreAboutSolarComponent } from './Mycomponents/more-about-solar/more-about-solar.component';
 import { ShippingAddressComponent } from './Mycomponents/shipping-address/shipping-address.component';
 import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -29,6 +28,12 @@ import { FooterComponent } from './Mycomponents/footer/footer.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { PayoptionComponent } from './Mycomponents/payoption/payoption.component';
+import { PrivacyPolicyComponent } from './Mycomponents/privacy-policy/privacy-policy.component';
+import { TermsConditionsComponent } from './Mycomponents/terms-conditions/terms-conditions.component';
+import { RefundsCancellationsComponent } from './Mycomponents/refunds-cancellations/refunds-cancellations.component';
+import { PricingPolicyComponent } from './Mycomponents/pricing-policy/pricing-policy.component';
+import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingpolicy.component';
 
 
 @NgModule({
@@ -40,10 +45,15 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
     NavbarComponent,
     ViewproductComponent,
     MysheetComponent,
-    MoreAboutSolarComponent,
     ShippingAddressComponent,
     AddtoCartComponent,
-    FooterComponent
+    FooterComponent,
+    PayoptionComponent,
+    PrivacyPolicyComponent,
+    TermsConditionsComponent,
+    RefundsCancellationsComponent,
+    PricingPolicyComponent,
+    ShippingpolicyComponent
 
   ],
   imports: [

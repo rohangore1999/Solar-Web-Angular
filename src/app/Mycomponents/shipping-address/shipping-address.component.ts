@@ -5,6 +5,7 @@ import { MysheetComponent } from '../mysheet/mysheet.component';
 import { AddtoCartComponent } from '../addto-cart/addto-cart.component';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { FormControl, Validators } from '@angular/forms';
+import { PayoptionComponent } from '../payoption/payoption.component';
 
 @Component({
   selector: 'app-shipping-address',
@@ -30,7 +31,7 @@ export class ShippingAddressComponent implements OnInit {
   }
 
   openBottomSheet(){
-    this.bottomSheet.open(MysheetComponent)
+    this.bottomSheet.open(PayoptionComponent)
   }
 
   onSubmit() {
