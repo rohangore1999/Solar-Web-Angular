@@ -8,6 +8,7 @@ import { AddtoCartComponent } from './Mycomponents/addto-cart/addto-cart.compone
 import { PrivacyPolicyComponent } from './Mycomponents/privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './Mycomponents/terms-conditions/terms-conditions.component';
 import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingpolicy.component';
+import { RefundsCancellationsComponent } from './Mycomponents/refunds-cancellations/refunds-cancellations.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'addtocart', component: AddtoCartComponent},
   { path: 'privacypolicy', component: PrivacyPolicyComponent},
   { path: 'termscondition', component: TermsConditionsComponent},
-  { path: 'shippingpolicy', component: ShippingpolicyComponent}
+  { path: 'shippingpolicy', component: ShippingpolicyComponent},
+  { path: 'refundcancellation', component: RefundsCancellationsComponent}
 ];
 
 @NgModule({
