@@ -25,6 +25,8 @@ export class AddtoCartComponent implements OnInit {
   qty = 0;
   cartTotal = 0;
 
+  public myMath = Math;
+
   constructor(private auth: AuthService, private bottomSheet: MatBottomSheet) {
     this.localItem = localStorage.getItem("cartitem");
     if (this.localItem == null) {

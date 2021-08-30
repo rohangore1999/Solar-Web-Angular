@@ -44,12 +44,12 @@
             <hr>
             <div class="row">
                 <div class="col" style="padding-left:0;">ITEMS {{this.cartitems.length}}</div>
-                <div class="col text-right">&#8377; {{cartTotal}}</div>
+                <div class="col text-right">&#8377; {{myMath.abs(cartTotal)}}</div>
             </div>
 
             <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
                 <div class="col">TOTAL PRICE</div>
-                <div class="col text-right">&#8377; {{cartTotal}}</div>
+                <div class="col text-right">&#8377; {{myMath.abs(cartTotal)}}</div>
             </div>
             <ng-template [ngIf]="this.cartitems.length > 0">
                 <button type=reset class="btn" (click)="openBottomSheet()">Check Out</button>

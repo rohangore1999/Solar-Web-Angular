@@ -34,6 +34,7 @@ import { TermsConditionsComponent } from './Mycomponents/terms-conditions/terms-
 import { RefundsCancellationsComponent } from './Mycomponents/refunds-cancellations/refunds-cancellations.component';
 import { PricingPolicyComponent } from './Mycomponents/pricing-policy/pricing-policy.component';
 import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingpolicy.component';
+import { WarrantyPolicyComponent } from './Mycomponents/warranty-policy/warranty-policy.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingp
     TermsConditionsComponent,
     RefundsCancellationsComponent,
     PricingPolicyComponent,
-    ShippingpolicyComponent
+    ShippingpolicyComponent,
+    WarrantyPolicyComponent
 
   ],
   imports: [

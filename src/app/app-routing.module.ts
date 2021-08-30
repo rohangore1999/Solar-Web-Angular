@@ -9,6 +9,8 @@ import { PrivacyPolicyComponent } from './Mycomponents/privacy-policy/privacy-po
 import { TermsConditionsComponent } from './Mycomponents/terms-conditions/terms-conditions.component';
 import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingpolicy.component';
 import { RefundsCancellationsComponent } from './Mycomponents/refunds-cancellations/refunds-cancellations.component';
+import { PricingPolicyComponent } from './Mycomponents/pricing-policy/pricing-policy.component';
+import { WarrantyPolicyComponent } from './Mycomponents/warranty-policy/warranty-policy.component';
 
 
 const routes: Routes = [
@@ -20,7 +22,9 @@ const routes: Routes = [
   { path: 'privacypolicy', component: PrivacyPolicyComponent},
   { path: 'termscondition', component: TermsConditionsComponent},
   { path: 'shippingpolicy', component: ShippingpolicyComponent},
-  { path: 'refundcancellation', component: RefundsCancellationsComponent}
+  { path: 'refundcancellation', component: RefundsCancellationsComponent},
+  { path: 'pricingpolicy', component: PricingPolicyComponent},
+  { path: 'warrantypolicy', component: WarrantyPolicyComponent}
 ];
 
 @NgModule({
