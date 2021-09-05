@@ -32,13 +32,13 @@ export class AuthService {
 
   constructor(private http: HttpClient) { }
 
-  server_address = 'http://localhost:5000/api/';
-  server_address_ship = 'http://localhost:5000/api_ship/';
-  server_address_op = 'http://localhost:5000/api_op/';
+  // server_address = 'http://localhost:5000/api/';
+  // server_address_ship = 'http://localhost:5000/api_ship/';
+  // server_address_op = 'http://localhost:5000/api_op/';
 
-  // server_address = 'https://helper-python.herokuapp.com/api/';
-  // server_address_ship = 'https://helper-python.herokuapp.com/api_ship/';
-  // server_address_op = 'https://helper-python.herokuapp.com/api_op/';
+  server_address = 'https://helper-python.herokuapp.com/api/';
+  server_address_ship = 'https://helper-python.herokuapp.com/api_ship/';
+  server_address_op = 'https://helper-python.herokuapp.com/api_op/';
 
   /************SENDING SHIPPING DATA TO PYTHON**********************/ 
 
