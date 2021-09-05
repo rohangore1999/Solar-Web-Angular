@@ -59,13 +59,17 @@ export class PayoptionComponent implements OnInit {
 
     if (this.model == 2) {
       console.log("open CASHFREE")
-      this.auth.currentData1.subscribe(item => {
-        console.log("This ITEM BEHAVIORSUBJECT")
+      this.auth.currentData2.subscribe(item => {
+        console.log("This LINK BEHAVIORSUBJECT")
         console.log(item)
-        this.item = item
+        window.open(item['paymentlink'], "_blank");
       })
 
-      this.auth.otherPayment(this.item).subscribe()
+      // this.auth.otherPayment(this.item).subscribe(item => {
+      //   console.log("PAYMENT LINK",item['data'])
+      // })
+
+      
     }
   }
 }

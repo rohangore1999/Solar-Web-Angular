@@ -21,6 +21,8 @@ export class ShippingAddressComponent implements OnInit {
   zip: number;
   phone: string;
   localItem: string;
+  link: any
+  item:any
 
   emailFormControl = new FormControl('', [Validators.required, Validators.email]);
   formName: any;
@@ -73,6 +75,20 @@ export class ShippingAddressComponent implements OnInit {
         "zip": this.zip,
         "phone":this.phone,
         "localstorage":this.localItem
+      })
+
+      this.auth.currentData1.subscribe(item => {
+        console.log("This ITEM BEHAVIORSUBJECT")
+        console.log(item)
+        this.item = item
+      })
+
+      this.auth.otherPayment(this.item).subscribe(link => {
+         this.link = link['data']
+         console.log("Payment Link", this.link)
+         this.auth.changeDataSub2({
+           "paymentlink":this.link
+         })
       })
   }
 

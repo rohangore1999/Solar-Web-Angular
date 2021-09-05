@@ -20,12 +20,15 @@ export class AuthService {
   // point of declaring data:object = {} because BehaviorSubject is expecting one arg.
   data:object = {};
   data1:object = {};
+  data2:object = {};
 
   dataSub = new BehaviorSubject<any>(this.data)
   dataSub1 = new BehaviorSubject<any>(this.data1)
+  dataSub2 = new BehaviorSubject<any>(this.data2)
 
   currentData = this.dataSub.asObservable(); //constantly observing dataSub
   currentData1 = this.dataSub1.asObservable(); //constantly observing dataSub
+  currentData2 = this.dataSub2.asObservable(); //constantly observing dataSub
 
   localItem: string
   cartitems;
@@ -111,6 +114,13 @@ export class AuthService {
     console.log(newDat1)
 
     this.dataSub1.next(newDat1); //send data to line 21 using next()
+  }
+
+  changeDataSub2(newDat2: any){
+    console.log("NEW DATA2")
+    console.log(newDat2)
+
+    this.dataSub2.next(newDat2); //send data to line 21 using next()
   }
 
 }
