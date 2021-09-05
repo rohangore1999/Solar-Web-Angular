@@ -40,6 +40,7 @@ export class AddtoCartComponent implements OnInit {
 
   ngOnInit(): void {
     this.auth.getMsg().subscribe((item: data) => {
+      console.log("ITEM",item)
       this.addProductToCart(item)
     })
 

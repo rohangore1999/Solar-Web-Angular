@@ -163,3 +163,7 @@ img{
   box-shadow: 0 2px 4px 0 rgba(219, 215, 215, 0.5);
   border: solid 2px #3057d5;
 }
+
+.custom-tooltip {
+	font-size: 20px !important;
+  }

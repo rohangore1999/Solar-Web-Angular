@@ -63,6 +63,17 @@ export class ShippingAddressComponent implements OnInit {
         "phone":this.phone,
         "localstorage":this.localItem
       }).subscribe()
+
+      this.auth.changeDataSub1({
+        "firstname": this.firstname,
+        "lastname": this.lastname,
+        "email": this.email,
+        "address": this.address,
+        "state": this.state,
+        "zip": this.zip,
+        "phone":this.phone,
+        "localstorage":this.localItem
+      })
   }
 
   openSnackBar(message: string, action: string) {

@@ -19,22 +19,26 @@ export class AuthService {
   // BehaviorSubject
   // point of declaring data:object = {} because BehaviorSubject is expecting one arg.
   data:object = {};
+  data1:object = {};
+
   dataSub = new BehaviorSubject<any>(this.data)
+  dataSub1 = new BehaviorSubject<any>(this.data1)
 
   currentData = this.dataSub.asObservable(); //constantly observing dataSub
+  currentData1 = this.dataSub1.asObservable(); //constantly observing dataSub
 
   localItem: string
   cartitems;
 
   constructor(private http: HttpClient) { }
 
-  // server_address = 'http://localhost:5000/api/';
-  // server_address_ship = 'http://localhost:5000/api_ship/';
-  // server_address_op = 'http://localhost:5000/api_op/';
+  server_address = 'http://localhost:5000/api/';
+  server_address_ship = 'http://localhost:5000/api_ship/';
+  server_address_op = 'http://localhost:5000/api_op/';
 
-  server_address = 'https://helper-python.herokuapp.com/api/';
-  server_address_ship = 'https://helper-python.herokuapp.com/api_ship/';
-  server_address_op = 'https://helper-python.herokuapp.com/api_op/';
+  // server_address = 'https://helper-python.herokuapp.com/api/';
+  // server_address_ship = 'https://helper-python.herokuapp.com/api_ship/';
+  // server_address_op = 'https://helper-python.herokuapp.com/api_op/';
 
   /************SENDING SHIPPING DATA TO PYTHON**********************/ 
 
@@ -100,6 +104,13 @@ export class AuthService {
     console.log(newDat)
 
     this.dataSub.next(newDat); //send data to line 21 using next()
+  }
+
+  changeDataSub1(newDat1: any){
+    console.log("NEW DATA1")
+    console.log(newDat1)
+
+    this.dataSub1.next(newDat1); //send data to line 21 using next()
   }
 
 }

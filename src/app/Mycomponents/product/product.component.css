@@ -147,6 +147,16 @@ padding: 2px 16px;
     }
 }
 
+.image-card img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  
+.zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
 /* Media Query End For to MIN 475px */
 
 /* Media Query For from Min 440px */

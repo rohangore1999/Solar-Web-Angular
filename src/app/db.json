@@ -12,7 +12,7 @@
             "Free Replacement (Months) – 0 – 36",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 6499,
         "category": "Battery"
     },
     {
@@ -28,7 +28,7 @@
             "Free Replacement (Months) – 0 – 36",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 9499,
         "category": "Battery"
     },
     {
@@ -44,7 +44,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 13999,
         "category": "Battery"
     },
     {
@@ -60,7 +60,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 16999,
         "category": "Battery"
     },
     {
@@ -77,7 +77,7 @@
             "Pro Rata Warranty (Months) – 37 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 17999,
         "category": "Battery"
     },
     {
@@ -93,7 +93,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 20999,
         "category": "Battery"
     },
     {
@@ -110,7 +110,7 @@
             "Pro Rata Warranty (Months) – 37 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 21999,
         "category": "Battery"
     },
     {
@@ -126,7 +126,7 @@
             "Free Replacement (Months) – 0 – 60",
             "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
         ],
-        "price": 400,
+        "price": 24999,
         "category": "Battery"
     },
     {
@@ -145,7 +145,7 @@
             "Maximum System Voltage (VDC)- 600",
             "Module Efficiency ŋ (%) – >12%"
         ],
-        "price": 400,
+        "price": 1999,
         "category": "Panel"
     },
     {
@@ -166,16 +166,16 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": 400,
+        "price": 4499,
         "category": "Pannels"
     },
     {
         "id": 10,
-        "small_title": "LFV12V160",
-        "title": "Livfast Solar Panel LFV12V160",
+        "small_title": "LFV12V165",
+        "title": "Livfast Solar Panel LFV12V165",
         "description": "Livfast Solar Panels are polycrystalline PV panels, IEC compliant having range from 40 W – 325 W. Our Panels are ideally suited for rooftop and agricultural applications.",
         "specifications": [
-            "Power (pm) in Watts (Nominal) – 160",
+            "Power (pm) in Watts (Nominal) – 165",
             "No. of Cells – 36",
             "Rated Module Voltage – 12",
             "Voltage at Maximum Power (Vmp) in Volts – 18.2",
@@ -187,7 +187,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": 400,
+        "price": 6499,
         "category": "Pannels"
     },
     {
@@ -208,7 +208,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": 400,
+        "price": 6999,
         "category": "Pannels"
     },
     {
@@ -229,7 +229,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": 400,
+        "price": 2499,
         "category": "Pannels"
     },
     {
@@ -250,7 +250,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": 400,
+        "price": 3499,
         "category": "Pannels"
     },
     {
@@ -271,16 +271,16 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": 400,
+        "price": 10999,
         "category": "Pannels"
     },
     {
         "id": 15,
-        "small_title": "LFV24V375M",
-        "title": "Livfast Solar Panel LFV24V375M",
-        "description": "Livfast 375 W Solar Panel is a mono perc PV panel, IEC and MNRE compliant. Our panels are ideally suited for rooftop and agricultural applications.",
+        "small_title": "LFV24V400M",
+        "title": "Livfast Solar Panel LFV24V400M",
+        "description": "Livfast 400 W Solar Panel is a mono perc PV panel, IEC and MNRE compliant. Our panels are ideally suited for rooftop and agricultural applications.",
         "specifications": [
-            "Power (pm) in Watts (Nominal) – 375",
+            "Power (pm) in Watts (Nominal) – 400",
             "No. of Cells – 72",
             "Rated Module Voltage – 24",
             "Voltage at Maximum Power (Vmp) in Volts – 40.3",
@@ -292,7 +292,7 @@
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
             "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
         ],
-        "price": 400,
+        "price": 15999,
         "category": "Pannels"
     },
     {
@@ -308,7 +308,7 @@
             "Dimensions (LxWxH) – 295 x 330 x 170 mm",
             "Net Weight (Kg) – 10"
         ],
-        "price": 400,
+        "price": 7799,
         "category": "Inverter"
     },
     {
@@ -324,7 +324,7 @@
             "Dimensions (LxWxH) – 363 x 398 x 251 mm",
             "Net Weight (Kg) – 15"
         ],
-        "price": 400,
+        "price": 10999,
         "category": "Inverter"
     },
     {
@@ -340,7 +340,7 @@
             "Dimensions (LxWxH) – 365 x 400 x 250 mm",
             "Net Weight (Kg) – 16.5"
         ],
-        "price": 400,
+        "price": 13999,
         "category": "Inverter"
     },
     {
@@ -356,7 +356,7 @@
             "Dimensions (LxWxH) – 370 x 400 x 320 mm",
             "Net Weight (Kg) – 28.97"
         ],
-        "price": 400,
+        "price": 25799,
         "category": "Inverter"
     },
     {
@@ -390,7 +390,7 @@
             "Technology – PWM",
             "SCC Rating – 70 A"
         ],
-        "price": 400,
+        "price": 45799,
         "category": "Inverter"
     },
     {
@@ -406,7 +406,7 @@
             "Dimensions (LxWxH) – 370 x 530 x 620 mm",
             "Net Weight (Kg) – 64.57"
         ],
-        "price": 400,
+        "price": 65799,
         "category": "Inverter"
     },
     {
@@ -422,7 +422,7 @@
             "Dimensions (LxWxH) – 370 x 530 x 620 mm",
             "Net Weight (Kg) – 67.28"
         ],
-        "price": 400,
+        "price": 89999,
         "category": "Inverter"
     },
     {
@@ -445,7 +445,7 @@
             "Application Class - Class A",
             "Looking system plug connectors - Snap- in (Nur/only MC4)"
         ],
-        "price": "$400",
+        "price": "Not Available",
         "category": "Others"
     },
     {
@@ -461,18 +461,18 @@
             "channel length - 202 cm",
             "Weight - 16 kg"
         ],
-        "price": "$400",
+        "price": "Not Available",
         "category": "Others"
     },
     {
         "id": 26,
-        "small_title": "1.2kW Hybrid Solar System",
-        "title": "Livfast 1.2KW Combo",
+        "small_title": "1.5kW Hybrid Solar System",
+        "title": "Livfast 1.5KW Combo",
         "specifications": [
             "Product List",
             "Solar Inverter - LIVFAST LFTLFSSO1850 (1 nos.)",
             "Solar Battery  - LFMLFS5150HP 150 Ah - (2 nos.)",
-            "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (2 nos.)",
+            "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (3 nos.)",
             "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
@@ -485,13 +485,13 @@
         "title": "Livfast 3KW Combo",
         "specifications": [
             "Product List",
-            "Solar Inverter - LIVFAST LFTLFSSOR3500 (1 nos.)",
-            "Solar Battery  - LFMLFS5150HP 150 Ah - (6 nos.)",
+            "Solar Inverter - LIVFAST LFTLFSSOR3500 (1 no.)",
+            "Solar Battery  - LFMLFS5200H 200 Ah - (2 nos.)",
             "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (7 nos.)",
             "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
-        "price": "",
+        "price": "209999",
         "category": "Combo"
     },
     {
@@ -506,7 +506,7 @@
             "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
-        "price": "",
+        "price": "349999",
         "category": "Combo"
     },
     {
@@ -520,7 +520,7 @@
             "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
-        "price": "",
+        "price": "59999",
         "category": "Combo"
     },
     {
@@ -534,7 +534,7 @@
             "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
-        "price": "",
+        "price": "159999",
         "category": "Combo"
     },
     {
@@ -548,7 +548,7 @@
             "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
-        "price": "",
+        "price": "289999",
         "category": "Combo"
     }
 ]
