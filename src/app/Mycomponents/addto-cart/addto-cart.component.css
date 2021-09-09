@@ -162,10 +162,45 @@ a:hover {
     background-position-y: center
 }
 
-
-@media only screen and (min-width: 375px) and (max-width: 390px) {
+@media only screen and (min-width: 396px) and (max-width: 448px) {
     .minus-btn{
         margin-left: -22%;
+    }
+    .cart{
+        margin-left: -14%;
+    }
+
+    .ng-star-inserted{
+        width: 130%;
+    }
+    
+    .btn{
+        width: 100%;
+    }
+
+    .text-muted{
+        margin-right: -32%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 395px) {
+    .minus-btn{
+        margin-left: -22%;
+    }
+    .cart{
+        margin-left: -14%;
+    }
+
+    .ng-star-inserted{
+        width: 136%;
+    }
+    
+    .btn{
+        width: 100%;
+    }
+
+    .text-muted{
+        margin-right: -32%;
     }
 }
 
