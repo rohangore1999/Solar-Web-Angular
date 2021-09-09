@@ -165,7 +165,7 @@ a:hover {
 
 @media only screen and (min-width: 375px) and (max-width: 390px) {
     .minus-btn{
-        margin-left: -16%;
+        margin-left: -22%;
     }
 }
 
@@ -184,5 +184,9 @@ a:hover {
 
     .text-muted{
         margin-right: -32%;
+    }
+
+    .minus-btn{
+        margin-left: -22%;
     }
 }

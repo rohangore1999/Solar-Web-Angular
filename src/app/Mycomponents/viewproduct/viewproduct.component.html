@@ -41,7 +41,7 @@
         </section>
 
         <!-- Features section-->
-        <section class="py-5 " id="features" style="background-color: #c9e6ff;">
+        <section *ngIf="!this.feat_chng" class="py-5 " id="features" style="background-color: #c9e6ff;">
             <!-- Hanging Icons -->
             <div class="center container px-4 py-5" id="hanging-icons">
                 <h1 class="pb-2">Product Features</h1>
@@ -55,17 +55,17 @@
                             </mat-icon>
                         </div>
 
-                        <div *ngIf="this.feat_chng; else elseBlock">
+                        <!-- <div *ngIf="this.feat_chng; else elseBlock">
                             <h2>asdasdast</h2>
                             <p>Hsadsad.</p>
+                        </div> -->
+
+
+                        <div>
+                            <h2>Excellent Performance in low light</h2>
+                            <p>High quality transparent glass Glossy EVA to capture maximum solar energy.</p>
                         </div>
 
-                        <ng-template #elseBlock>
-                            <div>
-                                <h2>Excellent Performance in low light</h2>
-                                <p>High quality transparent glass Glossy EVA to capture maximum solar energy.</p>
-                            </div>
-                        </ng-template>
                     </div>
 
                     <div class="col d-flex align-items-start">

@@ -167,3 +167,16 @@ img{
 .custom-tooltip {
 	font-size: 20px !important;
   }
+
+  /* Media query */
+
+  @media (max-width:477px) {
+	  .note{
+		margin-top: -20%;
+		font-size: 0.7em;
+	  }
+	  .price-font{
+		font-size: 18px;
+	  }
+	  
+  }

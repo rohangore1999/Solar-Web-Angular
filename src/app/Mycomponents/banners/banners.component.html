@@ -53,7 +53,7 @@
 <!-- Card View -->
 
 <div class="container px-4 py-5" id="custom-cards">
-  <h2 class="pb-2 text-center py-5">Custom cards</h2>
+  <h2 class="pb-2 text-center py-5">Special Offers</h2>
 
   <!--END COMBO Hybrid -->
   <mat-tab-group dynamicHeight>
@@ -178,6 +178,66 @@
 
       </div>
     </mat-tab>
+    <!-- COMBO ON GRID -->
+
+    <!-- Accessories -->
+    <mat-tab label="Accessories">
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+        <div class="col">
+          <div class="card cards" style="border-radius: 6%;">
+            <a routerLink="product/viewproduct/24">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-white rounded-5">
+                <div class="small-8 ribbon-holder" style="height:470px">
+                  <div class="ribbon">
+                    COMBO
+                  </div>
+                  <img src="assets/prod-imgs/pannels/pann34.png" alt="Avatar" style="width:100%">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card cards" style="border-radius: 6%;">
+            <a routerLink="product/viewproduct/32">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-white rounded-5">
+                <div class="small-8 ribbon-holder" style="height:470px">
+                  <div class="ribbon">
+                    COMBO
+                  </div>
+                  <img src="assets/prod-imgs/pannels/pann32.png" alt="Avatar" style="width:100%">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card cards" style="border-radius: 6%;">
+            <a routerLink="product/viewproduct/33">
+              <div class="card card-cover h-100 overflow-hidden text-white bg-white rounded-5">
+                <div class="small-8 ribbon-holder" style="height:470px">
+                  <div class="ribbon">
+                    COMBO
+                  </div>
+                  <img src="assets/prod-imgs/pannels/pann33.png" alt="Avatar" style="width:100%">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </mat-tab>
+    <!-- Accessories -->
   </mat-tab-group>
 
   <!-- END COMBO ON GRID -->
@@ -252,7 +312,8 @@
 
 <!-- Query Form -->
 <div class="py-5 text-center">
-  <h1>Any Queries??</h1>
+  <h1>For Bulk Orders, Site Survey, Contacting US or any other queries.</h1>
+  <h1>Please fill the form, we will contact you ASAP.</h1>
 </div>
 <div class="container text-center d-flex align-items-center justify-content-center">
   <form class="example-form" (ngSubmit)="onSubmit()">

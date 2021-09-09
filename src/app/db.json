@@ -10,7 +10,8 @@
             "Battery Weight with Acid  (Kg) – 23.2",
             "Dimension (LxWxH) – 410x174x230 mm",
             "Free Replacement (Months) – 0 – 36",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 6499,
         "category": "Battery"
@@ -26,7 +27,8 @@
             "Battery Weight with Acid  (Kg) – 29.9",
             "Dimension (LxWxH) – 410x174x271 mm",
             "Free Replacement (Months) – 0 – 36",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 9499,
         "category": "Battery"
@@ -42,7 +44,8 @@
             "Battery Weight with Acid  (Kg) – 52.4",
             "Dimension (LxWxH) – 505x190x410 mm",
             "Free Replacement (Months) – 0 – 60",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 13999,
         "category": "Battery"
@@ -58,7 +61,8 @@
             "Battery Weight with Acid  (Kg) – 54.4",
             "Dimension (LxWxH) – 505x190x430 mm",
             "Free Replacement (Months) – 0 – 60",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 16999,
         "category": "Battery"
@@ -75,7 +79,8 @@
             "Dimension (LxWxH) – 505x190x410 mm",
             "Free Replacement (Months) – 0 – 60",
             "Pro Rata Warranty (Months) – 37 – 60",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 17999,
         "category": "Battery"
@@ -91,7 +96,8 @@
             "Battery Weight with Acid  (Kg) – 59.5",
             "Dimension (LxWxH) – 505x190x410 mm",
             "Free Replacement (Months) – 0 – 60",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 20999,
         "category": "Battery"
@@ -108,7 +114,8 @@
             "Dimension (LxWxH) – 505x190x410 mm",
             "Free Replacement (Months) – 0 – 60",
             "Pro Rata Warranty (Months) – 37 – 60",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 21999,
         "category": "Battery"
@@ -124,7 +131,8 @@
             "Battery Weight with Acid  (Kg) – 64.5",
             "Dimension (LxWxH) – 505x190x410 mm",
             "Free Replacement (Months) – 0 – 60",
-            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C"
+            "Note – Battery capacity are C10 upto 1.80 v.p.c at 27°C",
+            "Shipping Cost - Free"
         ],
         "price": 24999,
         "category": "Battery"
@@ -143,7 +151,8 @@
             "Open Circuit Voltage (Voc) in Volts – 21",
             "Short Circuit Current (Isc) in Amps – 2.54",
             "Maximum System Voltage (VDC)- 600",
-            "Module Efficiency ŋ (%) – >12%"
+            "Module Efficiency ŋ (%) – >12%",
+            "Shipping Cost - Free"
         ],
         "price": 1999,
         "category": "Panel"
@@ -164,7 +173,8 @@
             "Maximum System Voltage (VDC)- 600",
             "Module Efficiency ŋ (%) – >14%",
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
-            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )",
+            "Shipping Cost - Free"
         ],
         "price": 4499,
         "category": "Pannels"
@@ -185,7 +195,8 @@
             "Maximum System Voltage (VDC)- 1000",
             "Module Efficiency ŋ (%) – >16%",
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
-            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )",
+            "Shipping Cost - Free"
         ],
         "price": 6499,
         "category": "Pannels"
@@ -206,7 +217,8 @@
             "Maximum System Voltage (VDC)- 1000",
             "Module Efficiency ŋ (%) – >18%",
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
-            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )",
+            "Shipping Cost - Free"
         ],
         "price": 6999,
         "category": "Pannels"
@@ -227,7 +239,8 @@
             "Maximum System Voltage (VDC)- 600",
             "Module Efficiency ŋ (%) – >12%",
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
-            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )",
+            "Shipping Cost - Free"
         ],
         "price": 2499,
         "category": "Pannels"
@@ -248,7 +261,8 @@
             "Maximum System Voltage (VDC)- 600",
             "Module Efficiency ŋ (%) – >14%",
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
-            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )",
+            "Shipping Cost - Free"
         ],
         "price": 3499,
         "category": "Pannels"
@@ -269,7 +283,8 @@
             "Maximum System Voltage (VDC)- 1000",
             "Module Efficiency ŋ (%) – >16%",
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
-            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )",
+            "Shipping Cost - Free"
         ],
         "price": 10999,
         "category": "Pannels"
@@ -290,7 +305,8 @@
             "Maximum System Voltage (VDC)- 1500",
             "Module Efficiency ŋ (%) – >19.4%",
             "STC: Irradiance 1000W/M2, Ambient Temperature 25°C, Air Mass 1.5, Measuring Tolerance ± 3%",
-            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )"
+            "Performance Warranty* – 25 Years ( 90% module efficiency after 10 years, 80% module efficiency after 25 years )",
+            "Shipping Cost - Free"
         ],
         "price": 15999,
         "category": "Pannels"
@@ -306,7 +322,8 @@
             "Ouput Waveform – Pure Sine Wave",
             "Switching Element – MOSFET",
             "Dimensions (LxWxH) – 295 x 330 x 170 mm",
-            "Net Weight (Kg) – 10"
+            "Net Weight (Kg) – 10",
+            "Shipping Cost - Free"
         ],
         "price": 7799,
         "category": "Inverter"
@@ -322,7 +339,8 @@
             "Ouput Waveform – Pure Sine Wave",
             "Switching Element – MOSFET",
             "Dimensions (LxWxH) – 363 x 398 x 251 mm",
-            "Net Weight (Kg) – 15"
+            "Net Weight (Kg) – 15",
+            "Shipping Cost - Free"
         ],
         "price": 10999,
         "category": "Inverter"
@@ -338,7 +356,8 @@
             "Ouput Waveform – Pure Sine Wave",
             "Switching Element – MOSFET",
             "Dimensions (LxWxH) – 365 x 400 x 250 mm",
-            "Net Weight (Kg) – 16.5"
+            "Net Weight (Kg) – 16.5",
+            "Shipping Cost - Free"
         ],
         "price": 13999,
         "category": "Inverter"
@@ -354,7 +373,8 @@
             "Ouput Waveform – Pure Sine Wave",
             "Switching Element – MOSFET",
             "Dimensions (LxWxH) – 370 x 400 x 320 mm",
-            "Net Weight (Kg) – 28.97"
+            "Net Weight (Kg) – 28.97",
+            "Shipping Cost - Free"
         ],
         "price": 25799,
         "category": "Inverter"
@@ -370,7 +390,8 @@
             "Ouput Waveform – Pure Sine Wave",
             "Switching Element – MOSFET",
             "Dimensions (LxWxH) – 370 x 510 x 550 mm",
-            "Net Weight (Kg) – 43.79"
+            "Net Weight (Kg) – 43.79",
+            "Shipping Cost - Free"
         ],
         "price": 400,
         "category": "Inverter"
@@ -388,7 +409,8 @@
             "Dimensions (LxWxH) – 370 x 510 x 550 mm",
             "Net Weight (Kg) – 43.79",
             "Technology – PWM",
-            "SCC Rating – 70 A"
+            "SCC Rating – 70 A",
+            "Shipping Cost - Free"
         ],
         "price": 45799,
         "category": "Inverter"
@@ -404,7 +426,8 @@
             "Ouput Waveform – Pure Sine Wave",
             "Switching Element – MOSFET",
             "Dimensions (LxWxH) – 370 x 530 x 620 mm",
-            "Net Weight (Kg) – 64.57"
+            "Net Weight (Kg) – 64.57",
+            "Shipping Cost - Free"
         ],
         "price": 65799,
         "category": "Inverter"
@@ -420,21 +443,22 @@
             "Ouput Waveform – Pure Sine Wave",
             "Switching Element – MOSFET",
             "Dimensions (LxWxH) – 370 x 530 x 620 mm",
-            "Net Weight (Kg) – 67.28"
+            "Net Weight (Kg) – 67.28",
+            "Shipping Cost - Free"
         ],
         "price": 89999,
         "category": "Inverter"
     },
     {
         "id": 24,
-        "small_title": "Solar MC4 T Branch Connector(LQ-1T5)",
-        "title": "MC4 Connectors",
+        "small_title": "WAAREE Solar MC4 Connector(LQ-1)",
+        "title": "WAAREE MC4 Connectors",
         "description": "",
         "specifications": [
-            "Rated Current – 50A",
+            "Rated Current – 30A",
             "Rated Voltage (Vdc) – 1500V",
             "Ambient Temperature - -40°C to +85°C",
-            "Degree of Protection – IP67",
+            "Degree of Protection – IP68",
             "Contact Resistance –   ≤0.5mΩ",
             "Contact Material – Copper with Tin Plated",
             "Insulation Material - PPO",
@@ -443,9 +467,11 @@
             "Cable size - 2.5 to 6mm2",
             "Protection Class - 2",
             "Application Class - Class A",
-            "Looking system plug connectors - Snap- in (Nur/only MC4)"
+            "Looking system plug connectors - Snap- in (Nur/only MC4)",
+	    "Diode/Fuse Type - EN 50521 : 2008",
+	    "Shipping Cost - Free"
         ],
-        "price": "Not Available",
+        "price": "109",
         "category": "Others"
     },
     {
@@ -459,9 +485,10 @@
             "Dimensions - front leg height - 50 cm",
             "back leg height - 83 cm",
             "channel length - 202 cm",
-            "Weight - 16 kg"
+            "Weight - 16 kg",
+            "Shipping Cost - Free"
         ],
-        "price": "Not Available",
+        "price": "$400",
         "category": "Others"
     },
     {
@@ -501,9 +528,9 @@
         "specifications": [
             "Product List",
             "Solar Inverter - LIVFAST LFTLFSSOR5048 (1 nos.)",
-            "Solar Battery  - LFMLFS5150HP 150 Ah - (10 nos.)",
+            "Solar Battery  - LFMLFS5200H 200 Ah - (4 nos.)",
             "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (12 nos.)",
-            "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
+            "Installation kit - Panels Stand,  6sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
         "price": "349999",
@@ -545,10 +572,60 @@
             "Product List",
             "Solar Inverter - LIVFAST LFTLFSSOR5048 (1 nos.)",
             "Solar Panels - LFV24VS400WM  400W (MonoCrystalline) (12 nos.)",
-            "Installation kit - Panels Stand,  4sqmm 15 meter pair DC wire  and MC4 connectors",
+            "Installation kit - Panels Stand,  6sqmm 15 meter pair DC wire  and MC4 connectors",
             "Transportation Excluded"
         ],
         "price": "289999",
         "category": "Combo"
+    },
+    {
+        "id": 32,
+        "small_title": "WAAREE Solar MC4 Connector(LQ-1)",
+        "title": "WAAREE MC4 Connectors (Pack of 5)",
+        "description": "",
+        "specifications": [
+            "Rated Current – 30A",
+            "Rated Voltage (Vdc) – 1500V",
+            "Ambient Temperature - -40°C to +85°C",
+            "Degree of Protection – IP68",
+            "Contact Resistance –   ≤0.5mΩ",
+            "Contact Material – Copper with Tin Plated",
+            "Insulation Material - PPO",
+            "Locking System - Snap-in",
+            "Flame Class - UL94-HB/ UL94-V0",
+            "Cable size - 2.5 to 6mm2",
+            "Protection Class - 2",
+            "Application Class - Class A",
+            "Looking system plug connectors - Snap- in (Nur/only MC4)",
+	    "Diode/Fuse Type - EN 50521 : 2008",
+	    "Shipping Cost - Free"
+        ],
+        "price": "319",
+        "category": "Others"
+    },
+    {
+        "id": 33,
+        "small_title": "WAAREE Solar MC4 Connector(LQ-1)",
+        "title": "WAAREE MC4 Connectors (Pack of 10)",
+        "description": "",
+        "specifications": [
+            "Rated Current – 30A",
+            "Rated Voltage (Vdc) – 1500V",
+            "Ambient Temperature - -40°C to +85°C",
+            "Degree of Protection – IP68",
+            "Contact Resistance –   ≤0.5mΩ",
+            "Contact Material – Copper with Tin Plated",
+            "Insulation Material - PPO",
+            "Locking System - Snap-in",
+            "Flame Class - UL94-HB/ UL94-V0",
+            "Cable size - 2.5 to 6mm2",
+            "Protection Class - 2",
+            "Application Class - Class A",
+            "Looking system plug connectors - Snap- in (Nur/only MC4)",
+	    "Diode/Fuse Type - EN 50521 : 2008",
+	    "Shipping Cost - Free"
+        ],
+        "price": "579",
+        "category": "Others"
     }
 ]
