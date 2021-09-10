@@ -492,7 +492,7 @@
         "category": "Others"
     },
     {
-        "id": 26,
+        "id": 260,
         "small_title": "1.5kW Hybrid Solar System",
         "title": "Livfast 1.5KW Combo",
         "specifications": [
@@ -507,7 +507,7 @@
         "category": "Combo"
     },
     {
-        "id": 27,
+        "id": 270,
         "small_title": "3kW Hybrid Solar System",
         "title": "Livfast 3KW Combo",
         "specifications": [
@@ -522,7 +522,7 @@
         "category": "Combo"
     },
     {
-        "id": 28,
+        "id": 280,
         "small_title": "5kW Hybrid Solar System",
         "title": "Livfast 5KW Combo",
         "specifications": [
@@ -537,7 +537,7 @@
         "category": "Combo"
     },
     {
-        "id": 29,
+        "id": 290,
         "small_title": "1 kW On-grid Solar System",
         "title": "Livfast 1 KW On-gird Combo",
         "specifications": [
@@ -551,7 +551,7 @@
         "category": "Combo"
     },
     {
-        "id": 30,
+        "id": 300,
         "small_title": "3kW On-gridSolar System",
         "title": "Livfast 3KW On-grid Combo",
         "specifications": [
@@ -565,7 +565,7 @@
         "category": "Combo"
     },
     {
-        "id": 31,
+        "id": 310,
         "small_title": "5kW On-gridSolar System",
         "title": "Livfast 5KW On-grid Combo",
         "specifications": [
