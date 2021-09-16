@@ -35,6 +35,7 @@ import { RefundsCancellationsComponent } from './Mycomponents/refunds-cancellati
 import { PricingPolicyComponent } from './Mycomponents/pricing-policy/pricing-policy.component';
 import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingpolicy.component';
 import { WarrantyPolicyComponent } from './Mycomponents/warranty-policy/warranty-policy.component';
+import { SearchfilterPipe } from './searchfilter.pipe';
 
 
 @NgModule({
@@ -55,7 +56,8 @@ import { WarrantyPolicyComponent } from './Mycomponents/warranty-policy/warranty
     RefundsCancellationsComponent,
     PricingPolicyComponent,
     ShippingpolicyComponent,
-    WarrantyPolicyComponent
+    WarrantyPolicyComponent,
+    SearchfilterPipe
 
   ],
   imports: [

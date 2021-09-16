@@ -4,6 +4,41 @@
 <!-- MAIN (Center website) -->
 <div class="container" style="padding: 16px 16px;">
 
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+        <input type="search" [(ngModel)]="searchValue" name="searchValue" class="form-control" placeholder="Search for the product..."
+            aria-label="Search">
+        <p></p>
+
+        <br>
+        <div class="row container px-4 py-5 text-center d-flex align-items-center justify-content-center"
+            id="custom-cards">
+            <div class="row row-cols-1 row-cols-lg-3 container align-items-stretch g-4 py-5 text-center d-flex align-items-center justify-content-center"
+                id="colu">
+
+                <ng-container *ngFor="let item of datas | searchfilter:searchValue">
+                    <div @fade class="col column batteries show pannels inverters others">
+                        <div class="card" style="border-radius: 11%;">
+                            <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                                <a routerLink="viewproduct/{{item.id}}">
+                                    <div class="zoom-effect-container">
+                                        <div class="image-card">
+                                            <img src="assets/prod-imgs/pannels/pann{{item.id}}.png" alt="Avatar"
+                                                style="width:53%">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                    <h2>{{item.title}}</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+
+            </div>
+        </div>
+    </form>
+
     <h2 class="pb-2 border-bottom">Categories</h2>
 
     <div class="myBtnContainer" id="myBtnContainer">
@@ -23,7 +58,7 @@
 
             <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 2}" (click)="onTabClick(2)"
                 [class.active]="isActive('btn3')" (click)="setActive('btn3')" (click)="filterSelection1('pannels')">
-                Pannels</mat-button-toggle>
+                Panels</mat-button-toggle>
 
             <mat-button-toggle class="btn" [ngClass]="{'active': tabIndex == 3}" (click)="onTabClick(3)"
                 [class.active]="isActive('btn4')" (click)="setActive('btn4')" (click)="filterSelection1('inverters')">
@@ -487,6 +522,42 @@
                         </a>
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                             <h2>MC4 Connectors</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div @fade class="col column others show">
+                <div class="card" style="border-radius: 11%;">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg"
+                        style="padding-top: 15%;">
+                        <a routerLink="viewproduct/32">
+                            <div class="zoom-effect-container">
+                                <div class="image-card">
+                                    <img src="assets/prod-imgs/pannels/pann32.png" alt="Avatar" style="width:53%">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2>WAAREE MC4 Connectors (Pack of 5)</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div @fade class="col column others show">
+                <div class="card" style="border-radius: 11%;">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg"
+                        style="padding-top: 15%;">
+                        <a routerLink="viewproduct/33">
+                            <div class="zoom-effect-container">
+                                <div class="image-card">
+                                    <img src="assets/prod-imgs/pannels/pann33.png" alt="Avatar" style="width:53%">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2>WAAREE MC4 Connectors (Pack of 10)</h2>
                         </div>
                     </div>
                 </div>

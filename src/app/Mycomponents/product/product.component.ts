@@ -2,6 +2,7 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
+import datas from '../../db.json'
 
 declare const filterSelection: any
 
@@ -31,7 +32,8 @@ export class ProductComponent implements OnInit {
 
   @Input() Fil: string
   btnshow: boolean = true
-
+  searchValue: string
+  datas: [] = datas
 
 
   activeButton
