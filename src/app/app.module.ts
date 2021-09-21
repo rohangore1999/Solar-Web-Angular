@@ -36,6 +36,7 @@ import { PricingPolicyComponent } from './Mycomponents/pricing-policy/pricing-po
 import { ShippingpolicyComponent } from './Mycomponents/shippingpolicy/shippingpolicy.component';
 import { WarrantyPolicyComponent } from './Mycomponents/warranty-policy/warranty-policy.component';
 import { SearchfilterPipe } from './searchfilter.pipe';
+import { FilterSheetComponent } from './Mycomponents/filter-sheet/filter-sheet.component';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import { SearchfilterPipe } from './searchfilter.pipe';
     PricingPolicyComponent,
     ShippingpolicyComponent,
     WarrantyPolicyComponent,
-    SearchfilterPipe
+    SearchfilterPipe,
+    FilterSheetComponent
 
   ],
   imports: [

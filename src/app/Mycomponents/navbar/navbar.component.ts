@@ -2,6 +2,7 @@ import { Component, OnInit, Input, Output } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { AddtoCartComponent } from '../addto-cart/addto-cart.component';
 import { AuthService } from 'src/app/Services/auth.service';
+import { FilterSheetComponent } from '../filter-sheet/filter-sheet.component';
 
 declare const filterSelection: any
 declare const show_all: any
@@ -98,6 +99,10 @@ export class NavbarComponent implements OnInit {
 
   openAddToCartSheet() {
     this.bottomSheet.open(AddtoCartComponent)
+  }
+
+  openBottomSheet() {
+    this.bottomSheet.open(FilterSheetComponent)
   }
 
   addProductToCart(item: data) {

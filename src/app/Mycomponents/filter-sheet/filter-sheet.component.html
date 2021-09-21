@@ -1,0 +1,34 @@
+<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+    <h1 class="text-center mt-2">Search for the Product</h1>
+    <input type="search" [(ngModel)]="searchValue" name="searchValue" class="form-control"
+        placeholder="Eg: MC4 Connectors" aria-label="Search" style="margin-top: 7%;">
+    <p></p>
+
+    <br>
+    <div class="row container px-4 py-1 text-center d-flex align-items-center justify-content-center" id="custom-cards">
+        <div class="row row-cols-1 row-cols-lg-3 container align-items-stretch g-4 py-1 text-center d-flex align-items-center justify-content-center"
+            id="colu">
+
+            <ng-container *ngFor="let item of datas | searchfilter:searchValue">
+                <div class="col column batteries show pannels inverters others" (click)="closeTemplateSheetMenu()">
+                    <div class="card" style="border-radius: 11%;">
+                        <div class="card card-cover h-100 overflow-hidden text-white bg-light rounded-5 shadow-lg">
+                            <a routerLink="product/viewproduct/{{item.id}}">
+                                <div class="zoom-effect-container">
+                                    <div class="image-card">
+                                        <img src="assets/prod-imgs/pannels/pann{{item.id}}.png" alt="Avatar"
+                                            style="width:53%">
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h2>{{item.title}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+
+        </div>
+    </div>
+</form>
