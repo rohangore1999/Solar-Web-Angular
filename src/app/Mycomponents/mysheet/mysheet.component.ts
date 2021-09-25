@@ -15,7 +15,7 @@ const copy_clipboard = `
 })
 export class MysheetComponent implements OnInit {
 
-  content = 'investengery@okaxis';
+  content = '8108493971@okbizaxis';
 
   constructor(private clipboardApi: ClipboardService,iconRegistry: MatIconRegistry, sanitizer: DomSanitizer, private _snackBar: MatSnackBar) { 
     iconRegistry.addSvgIconLiteral('copy_clipboard', sanitizer.bypassSecurityTrustHtml(copy_clipboard));
