@@ -43,7 +43,8 @@ echo "# Solar-Web-Angular" >> README.md
   147  git branch -M main
   148  git remote add origin https://github.com/rohangore1999/Solar-Web-Angular.git
   149   git push -u origin main
-  150  git status
+  150 git add *
+  151  git status
 
 
 
