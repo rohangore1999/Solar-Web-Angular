@@ -59,3 +59,55 @@ Then do
 
 git init
 To start over
+
+
+
+
+
+
+
+--------------------------------------
+
+if you update anything in update instead of local:
+
+ERROR:
+gorer@DESKTOP-KDSO9SP MINGW64 ~/react-portfolio-2 (main)
+$ git push -u origin main
+To https://github.com/rohangore1999/PORTFOLIO-REACT.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/rohangore1999/PORTFOLIO-REACT.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+gorer@DESKTOP-KDSO9SP MINGW64 ~/react-portfolio-2 (main)
+$ git pull --rebase origin main
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 8 (delta 5), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (8/8), 1.58 KiB | 4.00 KiB/s, done.
+From https://github.com/rohangore1999/PORTFOLIO-REACT
+ * branch            main       -> FETCH_HEAD
+   ab6084e..e43600c  main       -> origin/main
+dropping 3154d27c25f0b7f1809c3468f2ca8db60c8db88a first commit -- patch contents already upstream
+Successfully rebased and updated refs/heads/main.
+
+gorer@DESKTOP-KDSO9SP MINGW64 ~/react-portfolio-2 (main)
+$ git push origin main
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 2.29 KiB | 1.14 MiB/s, done.
+Total 17 (delta 14), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (14/14), completed with 14 local objects.
+To https://github.com/rohangore1999/PORTFOLIO-REACT.git
+   e43600c..089621d  main -> main
+
+gorer@DESKTOP-KDSO9SP MINGW64 ~/react-portfolio-2 (main)
+$
+
